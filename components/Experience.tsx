@@ -63,7 +63,7 @@ const Experience = () => {
             className={`${
               workReactbd
                 ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
+                : "border-l-hoverColor text-textGray"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             RactBD
@@ -73,7 +73,7 @@ const Experience = () => {
             className={`${
               workGoogle
                 ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
+                : "border-l-hoverColor text-textGray"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Google
@@ -83,7 +83,7 @@ const Experience = () => {
             className={`${
               workApple
                 ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
+                : "border-l-hoverColor text-textGray"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Apple
@@ -93,7 +93,7 @@ const Experience = () => {
             className={`${
               workSplash
                 ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
+                : "border-l-hoverColor text-textGray"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Splash
@@ -103,7 +103,7 @@ const Experience = () => {
             className={`${
               workAmazon
                 ? "border-l-textGreen text-textGreen"
-                : "border-l-hoverColor text-textDark"
+                : "border-l-hoverColor text-textGray"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
             Amazon
