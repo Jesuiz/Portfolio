@@ -1,51 +1,55 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect } from 'react';
 
-const AnimatedScroller: React.FC = () => {
-  const scrollerRef = useRef<HTMLDivElement>(null);
 
+const Scroll: React.FC = () => {
   useEffect(() => {
-    const scroller = scrollerRef.current;
+    const scrollers = document.querySelectorAll(".scroller");
 
-    // If a user hasn't opted in for reduced motion, then we add the animation
-    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-      addAnimation(scroller);
+    // Si un usuario no ha optado por reducir el movimiento, agregamos la animación
+    if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      addAnimation();
     }
-  }, []);
 
-  const addAnimation = (scroller: HTMLDivElement | null) => {
-    if (scroller) {
-      // add data-animated="true" to every `.scroller` on the page
-      scroller.setAttribute('data-animated', 'true');
+    function addAnimation() {
+      scrollers.forEach((scroller: Element) => {
+        // Realizamos un casting seguro a HTMLElement
+        const scrollerElement = scroller as HTMLElement;
 
-      // Make an array from the elements within `.scroller-inner`
-      const scrollerInner = scroller.querySelector('.scroller__inner');
-      const scrollerContent = Array.from(scrollerInner?.children || []);
+        // Agrega data-animated="true" a cada `.scroller` en la página
+        scrollerElement.setAttribute("data-animated", "true");
 
-      // For each item in the array, clone it
-      // add aria-hidden to it
-      // add it into the `.scroller-inner`
-      scrollerContent.forEach((item) => {
-        const duplicatedItem = item.cloneNode(true);
-        duplicatedItem.setAttribute('aria-hidden', 'true');
-        scrollerInner?.appendChild(duplicatedItem);
+        // Hacer un array de los elementos dentro de `.scroller-inner`
+        const scrollerInner = scrollerElement.querySelector(".scroller__inner") as HTMLElement;
+        const scrollerContent = Array.from(scrollerInner.children);
+
+        // Para cada elemento en el array, clónalo, agrega aria-hidden y añádelo a `.scroller-inner`
+        scrollerContent.forEach((item: Element) => {
+          const duplicatedItem = item.cloneNode(true) as HTMLElement;
+          duplicatedItem.setAttribute("aria-hidden", "true");
+          scrollerInner.appendChild(duplicatedItem);
+        });
       });
     }
-  };
+  }, []); // Se ejecutará solo una vez después de que el componente se monte
 
   return (
-    <div ref={scrollerRef} className="scroller" data-speed="fast">
+    <div className="scroller" data-speed="fast">
       <ul className="tag-list scroller__inner">
-        <li>HTML</li>
-        <li>CSS</li>
-        <li>JS</li>
-        <li>SSG</li>
-        <li>webdev</li>
-        <li>animation</li>
-        <li>UI/UX</li>
+        <li>Illustrator</li>
+        <li>PHP</li>
+        <li>Photoshop</li>
+        <li>Laravel</li>
+        <li>After Effects</li>
+        <li>MySQL</li>
+        <li>Figma</li>
+        <li>JavaScript</li>
+        <li>CorelDraw</li>
+        <li>Wordpress</li>
       </ul>
     </div>
   );
-};
+}
 
-export default AnimatedScroller;
+export default Scroll;
+
 

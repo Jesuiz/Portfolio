@@ -11,7 +11,7 @@ const About = () => {
     >
       <SectionTitle title="Sobre Mi" titleNo="01" />
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
-      <div className="text-balance w-full text-base text-textGray flex flex-col gap-4 font-semilight text-pretty">
+      <div className="text-balance w-full text-base text-textGray flex flex-col gap-4 font-semilight">
           <p>
             Tengo profunda conexión y experiencia con el <span className="text-textGreen">Branding y Diseño de Identidad Visual.</span> En el 2017 dejé inconclusos mis estudios universitarios en Diseño Gráfico, aunque he trabajado en ello por más de 6 años.
           </p>
@@ -24,18 +24,6 @@ const About = () => {
           <p>
             Estas son todas las tecnologías y habilidades que manejo, tanto para Diseño como para Desarrollo:
           </p>
-
-          <div class="scroller" data-speed="fast">
-            <ul class="tag-list scroller__inner">
-              <li>HTML</li>
-              <li>CSS</li>
-              <li>JS</li>
-              <li>SSG</li>
-              <li>webdev</li>
-              <li>animation</li>
-              <li>UI/UX</li>
-            </ul>
-          </div>
           
           <ul className="max-w-[550px] text-sm font-titleFont grid grid-cols-2 gap-1 mt-6">
             <li className="flex items-center gap-2">

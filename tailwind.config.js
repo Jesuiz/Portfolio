@@ -31,6 +31,7 @@ module.exports = {
         textGray: "#a2a2a2",
         textDark: "#8892b0",
         hoverColor: "rgba(100,255,218,0.1)",
+        hoverColor2: "#7154EF",
       },
       fontFamily: {
         bodyFont: ["Poppins", "sans-serif"],
