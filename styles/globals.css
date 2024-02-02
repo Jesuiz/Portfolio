@@ -1,3 +1,5 @@
+/* global.css */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,11 +8,37 @@
   .contactInput {
     @apply w-full text-base text-white placeholder:text-textLight border border-b-[1px] border-transparent border-b-textGreen py-3 px-2 outline-none focus-within:border-[1px] focus-within:border-textGreen duration-100 bg-zinc-800;
   }
+
+  /* Agrega los estilos para .scroller aquí */
+  .scroller {
+    max-width: 600px;
+  }
+
+  .scroller__inner {
+    padding-block: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+  }
+
+  /* ... Otros estilos para .scroller ... */
+
+  .tag-list li {
+    padding: 1rem;
+    background: var(--clr-primary-400);
+    border-radius: 0.5rem;
+    box-shadow: 0 0.5rem 1rem -0.25rem var(--clr-primary-900);
+  }
+
+  /* ... Otros estilos ... */
 }
 
 .scrollbarHide::-webkit-scrollbar {
   display: none;
 }
+
 .active {
   color: #64ffda;
 }
+
+

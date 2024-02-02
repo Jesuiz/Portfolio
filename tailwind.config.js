@@ -26,6 +26,7 @@ module.exports = {
       colors: {
         bodyColor: "#1b1b1a",
         textGreen: "#04d6aa",
+        textBlue: "#7154EF",
         textLight: "#ffff",
         textGray: "#a2a2a2",
         textDark: "#8892b0",
