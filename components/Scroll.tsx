@@ -1,59 +1,51 @@
-import React, { useRef, useEffect } from "react";
+import React, { useEffect, useRef } from 'react';
 
-const Scroll = () => {
+const AnimatedScroller: React.FC = () => {
   const scrollerRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
-    const scrollers = scrollerRef.current?.querySelectorAll(".scroller");
+    const scroller = scrollerRef.current;
 
-    if (scrollers && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      addAnimation(scrollers);
+    // If a user hasn't opted in for reduced motion, then we add the animation
+    if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+      addAnimation(scroller);
     }
   }, []);
 
-  const addAnimation = (scrollers: NodeListOf<Element>) => {
-    scrollers.forEach((scroller) => {
-      scroller.setAttribute("data-animated", "true");
+  const addAnimation = (scroller: HTMLDivElement | null) => {
+    if (scroller) {
+      // add data-animated="true" to every `.scroller` on the page
+      scroller.setAttribute('data-animated', 'true');
 
-      const scrollerInner = scroller.querySelector(".scroller__inner");
-      if (scrollerInner) {
-        const scrollerContent = Array.from(scrollerInner.children);
+      // Make an array from the elements within `.scroller-inner`
+      const scrollerInner = scroller.querySelector('.scroller__inner');
+      const scrollerContent = Array.from(scrollerInner?.children || []);
 
-        scrollerContent.forEach((item) => {
-          const duplicatedItem = item.cloneNode(true) as HTMLElement;
-          duplicatedItem.setAttribute("aria-hidden", "true");
-          scrollerInner.appendChild(duplicatedItem);
-        });
-      }
-    });
+      // For each item in the array, clone it
+      // add aria-hidden to it
+      // add it into the `.scroller-inner`
+      scrollerContent.forEach((item) => {
+        const duplicatedItem = item.cloneNode(true);
+        duplicatedItem.setAttribute('aria-hidden', 'true');
+        scrollerInner?.appendChild(duplicatedItem);
+      });
+    }
   };
 
   return (
-    <section
-      id="scroll"
-      className={`${styles.scroller} max-w-contentContainer mx-auto py-10 xl:py-32 flex flex-col gap-4 items-center justify-center`}
-    >
-      <div className="md:w-3/4">
-        <div className="scroller" data-speed="fast">
-          <ul className="tag-list scroller__inner">
-            <li>Illustrator</li>
-            <li>Photoshop</li>
-            <li>After Effects</li>
-            <li>Wordpress</li>
-            <li>PHP</li>
-            <li>Laravel</li>
-            <li>MySQL</li>
-            <li>JavaScript</li>
-            <li>TypeScript</li>
-            <li>Tailwind</li>
-            <li>BootStrap</li>
-          </ul>
-        </div>
-      </div>
-    </section>
+    <div ref={scrollerRef} className="scroller" data-speed="fast">
+      <ul className="tag-list scroller__inner">
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>SSG</li>
+        <li>webdev</li>
+        <li>animation</li>
+        <li>UI/UX</li>
+      </ul>
+    </div>
   );
 };
 
-export default Scroll;
-
+export default AnimatedScroller;
 
