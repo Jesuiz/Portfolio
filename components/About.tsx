@@ -9,7 +9,7 @@ const About = () => {
       id="about"
       className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4"
     >
-      <SectionTitle title="Sobre Mi" titleNo="01" />
+      <SectionTitle title="Sobre Mi" titleNo="02" />
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
       <div className="text-balance w-full text-base text-textGray flex flex-col gap-4 font-semilight">
           <p>

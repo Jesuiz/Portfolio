@@ -31,8 +31,8 @@ export default function Home() {
           </motion.div>
           <div className="h-[88vh] mx-auto p-4" >
             <Banner />
-            <About />
             <Projects />
+            <About />
             <Contact />
             <Footer />
           </div>

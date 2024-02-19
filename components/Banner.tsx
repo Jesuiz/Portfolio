@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="max-w-contentContainer mx-auto py-10 lg:py-32 flex flex-col gap-4 lgl:gap-8 md:flex-row lg:items-center"
+      className="max-w-contentContainer mx-auto py-8 lg:py-32 flex flex-col gap-4 lgl:gap-8 md:flex-row lg:items-center"
     >
       <div className="md:w-2/3">
         <motion.h3

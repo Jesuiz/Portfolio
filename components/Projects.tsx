@@ -1,4 +1,4 @@
-import { pinaculoEducation, maestroSupply, jesuizDesign, elValleDorado, dadosMedic, crmCoiintawa } from "@/public/assets";
+import { pinaculoEducation, maestroSupply, jesuizDesign, elValleDorado, crmCoiintawa, pythonScraper} from "@/public/assets";
 import Image from "next/image";
 import { AiOutlineYoutube } from "react-icons/ai";
 import { TbBrandGithub } from "react-icons/tb";
@@ -9,7 +9,7 @@ import { SlSocialBehance, SlStar, } from "react-icons/sl";
 const Projects = () => {
   return (
     <section id="project" className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4">
-      <SectionTitle title="Proyectos" titleNo="02" />
+      <SectionTitle title="Proyectos" titleNo="01" />
       {/* ============ Project 1 Start here ================ */}
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
         <div className="flex flex-col xl:flex-row gap-6">
@@ -26,7 +26,7 @@ const Projects = () => {
               />
             </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 lgl:justify-between items-end text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-2 lgl:justify-between items-end text-right xl:-ml-16 z-10">
             <div>
               <p className="font-titleFont text-textBlue text-sm tracking-wide">
                 Proyecto de Branding
@@ -67,7 +67,7 @@ const Projects = () => {
               />
             </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-2 justify-between items-end text-right z-10">
             <div>
               <p className="font-titleFont text-textBlue text-sm tracking-wide">
                 Aplicación Web con Laravel
@@ -110,7 +110,7 @@ const Projects = () => {
               />
             </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-2 justify-between items-end text-right xl:-ml-16 z-10">
             <div>
               <p className="font-titleFont text-textBlue text-sm tracking-wide">
                 Página Web con Wordpress
@@ -152,7 +152,7 @@ const Projects = () => {
               />
             </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-2 justify-between items-end text-right z-10">
             <div>
               <p className="font-titleFont text-textBlue text-sm tracking-wide">
               Proyecto de Branding
@@ -194,7 +194,7 @@ const Projects = () => {
               />
             </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right xl:-ml-16 z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-2 justify-between items-end text-right xl:-ml-16 z-10">
             <div>
               <p className="font-titleFont text-textBlue text-sm tracking-wide">
                 Ecommerce con Wordpress
@@ -231,30 +231,29 @@ const Projects = () => {
             <div>
               <Image
                 className="w-full h-full object-contain"
-                src={dadosMedic}
-                alt="dadosMedic"
+                src={pythonScraper}
+                alt="Scraper desarrollado con Python"
               />
             </div>
           </a>
-          <div className="w-full xl:w-1/2 flex flex-col gap-6 justify-between items-end text-right z-10">
+          <div className="w-full xl:w-1/2 flex flex-col gap-2 justify-between items-end text-right z-10">
             <div>
               <p className="font-titleFont text-textBlue text-sm tracking-wide">
-                Página Web con Wordpress
+                Programa con Python
               </p>
-              <h3 className="text-2xl font-bold">Web para Dados Medic</h3>
+              <h3 className="text-2xl font-bold">Scraper Web Automático</h3>
             </div>
             <p className="text-sm md:text-base bg-[#2f2f2f] p-2 md:p-6 rounded-md xl:-mr-16">
-              Esta <span className="text-textGreen font-bold">Página Web</span> elaborada para un pequeño negocio que ofrece insumos médicos. Sus productos se muestran como si de un ecommerce se tratara, pero sin la pasarela de pagos.
+              Este <span className="text-textGreen font-bold">Scraper Web</span> se desarrolló con Python como solución al requerimiento de un cliente que buscaba automatizar la descargar masiva de contenido en una Aplicación Web hecha con Angular.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textGray">
-              <li>PHP</li>
-              <li>Wordpress</li>
-              <li>SEO</li>
+              <li>Python</li>
+              <li>Angular</li>
             </ul>
             <div className="text-2xl flex gap-4">
               <a
                 className="hover:text-textGreen duration-300"
-                href="https://dadosmedic.com/"
+                href="https://g.co/kgs/NxKXLnW"
                 target="_blank"
               >
                 <SlStar />
