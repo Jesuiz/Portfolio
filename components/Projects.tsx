@@ -241,7 +241,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">Scraper Web Automático</h3>
             </div>
             <p className="text-sm md:text-base bg-[#2f2f2f] p-2 md:p-6 rounded-md xl:-mr-16">
-              Este <span className="text-textGreen font-bold">Scraper Web</span> se desarrolló con Python como solución al requerimiento de un cliente que buscaba automatizar la descargar masiva de contenido en una Aplicación Web hecha con Angular.
+              Este <span className="text-textGreen font-bold">Scraper Web</span> se desarrolló con Python como solución al requerimiento de un cliente que buscaba automatizar la descarga masiva de contenido en una Aplicación Web hecha con Angular.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textGray">
               <li>Python</li>
