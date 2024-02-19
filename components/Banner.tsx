@@ -48,30 +48,30 @@ const Banner = () => {
         </motion.h3>
       </div>
       
-      <div className="md:w-1/3 md:pl-8 flex flex-col items-center">
-        <div className="relative group">
-          <div className="w-full  relative z-20 flex justify-center items-center ">
-          <motion.h3
-          initial={{ y: 10, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.5, delay: 0.8 }}
-          >
-            <Image
-              className="rounded-lg max-w-full "
-              src={profileImg}
-              alt="profileImg"
-            />
-          </motion.h3>
-
-            
+      <div className="w-full md:w-1/3 md:pl-8 flex flex-col items-center justify-center">
+        <div className="relative group flex flex-col items-center md:items-stretch">
+          <div className="w-full relative z-20 flex justify-center items-center mb-4">
+            <motion.h3
+              initial={{ y: 10, opacity: 0 }}
+              animate={{ y: 0, opacity: 1 }}
+              transition={{ duration: 0.5, delay: 0.8 }}
+            >
+              <Image
+                className="rounded-lg max-w-full"
+                src={profileImg}
+                alt="profileImg"
+              />
+            </motion.h3>
           </div>
-          <div className="w-full h-full relative z-20 flex justify-center items-center mb-4 mt-4">
+
+          <div className="w-full h-full relative z-20 flex justify-center items-center md:items-start mt-4 md:items-stretch">
             <a href="/assets/jesuiz_cv.pdf" target="_blank">
               <motion.button
                 initial={{ y: 10, opacity: 0 }}
                 animate={{ y: 0, opacity: 1 }}
                 transition={{ duration: 0.5, delay: 0.9 }}
                 className="px-8 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
+                style={{ minWidth: '100px' }} // Añadimos un ancho mínimo al botón
               >
                 Descargar CV
               </motion.button>
@@ -79,7 +79,6 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      
     </section>
   );
 };

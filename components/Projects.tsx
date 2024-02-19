@@ -1,9 +1,6 @@
 import { pinaculoEducation, maestroSupply, jesuizDesign, elValleDorado, crmCoiintawa, pythonScraper} from "@/public/assets";
 import Image from "next/image";
-import { AiOutlineYoutube } from "react-icons/ai";
-import { TbBrandGithub } from "react-icons/tb";
 import SectionTitle from "./SectionTitle";
-import { RxOpenInNewWindow } from "react-icons/rx";
 import { SlSocialBehance, SlStar, } from "react-icons/sl";
 
 const Projects = () => {
