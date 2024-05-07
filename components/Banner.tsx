@@ -8,7 +8,7 @@ const Banner = () => {
   return (
     <section
       id="home"
-      className="max-w-contentContainer mx-auto py-8 lg:py-32 flex flex-col gap-4 lgl:gap-8 md:flex-row lg:items-center"
+      className="max-w-contentContainer mx-auto py-8 lg:py-48 flex flex-col gap-4 lgl:gap-8 md:flex-row lg:items-center"
     >
       <div className="md:w-2/3">
         <motion.h3
@@ -27,7 +27,7 @@ const Banner = () => {
         >
           Jesús Ruiz
           <span className="text-2xl lgl:text-3xl text-textBlue mt-2 lgl:mt-5 font-semibold mb-4 lgl:mb-5">
-            Me gusta Diseñar y Desarrollar
+            Me gusta Diseñar y Desarrollar Webs
           </span>
         </motion.h1>
         <motion.p

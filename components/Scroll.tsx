@@ -39,7 +39,6 @@ const Scroll: React.FC = () => {
         <li>PHP</li>
         <li>Photoshop</li>
         <li>Laravel</li>
-        <li>After Effects</li>
         <li>MySQL</li>
         <li>Figma</li>
         <li>JavaScript</li>

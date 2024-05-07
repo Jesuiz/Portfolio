@@ -72,7 +72,7 @@ const Projects = () => {
               <h3 className="text-2xl font-bold">CRM para Coiintawa</h3>
             </div>
             <p className="text-sm md:text-base bg-[#2f2f2f] p-2 md:p-6 rounded-md xl:-mr-16">
-              La primera <span className="text-textGreen font-bold">Aplicación Web</span> que he implementado para un cliente, es un CRM con esteroides. Sus funcionalidades permiten gestionar Clientes, Empleados, Pagos, Facturas, Eventos, Tickets y más.
+              La primera <span className="text-textGreen font-bold">Aplicación Web</span> que implementé, es un CRM con esteroides. Para este proyecto se desarrollaron funcionalidades para la Adjudicación de Lotes y el Pago de Cuotas.
             </p>
             <ul className="text-xs md:text-sm font-titleFont tracking-wide flex gap-2 md:gap-5 justify-between text-textGray">
               <li>PHP</li>
@@ -222,7 +222,7 @@ const Projects = () => {
         <div className="flex flex-col xl:flex-row-reverse gap-6">
           <a
             className="w-full xl:w-1/2 h-auto relative group"
-            href="https://dadosmedic.com/"
+            href="#"
             target="_blank"
           >
             <div>
