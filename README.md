@@ -1,5 +1,5 @@
 Git Commands:
-- git add.
+- git add .
 - git commit -m "example"
 - git push -u origin main
 
