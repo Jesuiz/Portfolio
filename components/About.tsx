@@ -2,30 +2,26 @@ import { profileImg } from "@/public/assets";
 import Image from "next/image";
 import SectionTitle from "./SectionTitle";
 import { AiFillThunderbolt } from "react-icons/ai";
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const { t, i18n } = useTranslation();
+
   return (
     <section 
       id="about"
       className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-4 lgl:gap-8 mdl:px-10 xl:px-4"
     >
-      <SectionTitle title="Sobre Mi" titleNo="02" />
-      <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
+      <SectionTitle title={t('about')} titleNo="02" />
+      
+      <div className="w-full flex flex-col items-center justify-center gap-28">
       <div className="text-balance w-full text-base text-textGray flex flex-col gap-4 font-semilight">
-          <p>
-            Tengo profunda conexión y experiencia con el <span className="text-textGreen">Branding y Diseño de Identidad Visual.</span> En el 2017 dejé inconclusos mis estudios universitarios en Diseño Gráfico, aunque he trabajado en ello por más de 6 años.
-          </p>
-          <p>
-            Recientemente, en el 2023, me interesé en el <span className="text-textGreen">Desarrollo de Aplicaciones Web</span> y desde entonces he estado aprendiendo sin parar. Tengo conocimientos básicos en <span className="text-textGreen">PHP, Laravel y otras tecnologías</span>, esto me permite modificar y desplegar Aplicaciones Web en base al reconocido modelo MVC. Hasta ahora, he implementado una solución CRM para una inmobiliaria de Lima, Perú.
-          </p>
-          <p>
-            Adicionalmente, tengo mucha experiencia ofreciendo <span className="text-textGreen">Páginas Web con Wordpress</span>, por lo que tengo sólidos conocimientos para implementarlas muy rapidamente, modificando el código para obtener funciones personalizadas y optimizaciones de velocidad.
-          </p>
-          <p>
-            Estas son todas las tecnologías y habilidades que manejo, tanto para Diseño como para Desarrollo:
-          </p>
-          
-          <ul className="max-w-[550px] text-sm font-titleFont grid grid-cols-2 gap-1 mt-6">
+          <p>{t('about1')}</p>
+          <p>{t('about2')}</p>
+          <p>{t('about3')}</p>
+          <p>{t('about4')}</p>
+
+          <ul className="max-w-[550px] text-sm font-titleFont grid grid-cols-3 gap-1 mt-6">
             <li className="flex items-center gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
@@ -54,12 +50,6 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Adobe After Effects
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
               MySQL
             </li>
             <li className="flex items-center gap-2">
@@ -72,12 +62,6 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              JavaScript
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
               CorelDraw
             </li>
             <li className="flex items-center gap-2">
@@ -85,12 +69,6 @@ const About = () => {
                 <AiFillThunderbolt />
               </span>
               Wordpress
-            </li>
-            <li className="flex items-center gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Computación e Informática
             </li>
             <li className="flex items-center gap-2">
               <span className="text-textGreen">

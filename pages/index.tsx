@@ -8,6 +8,8 @@ import Projects from "@/components/Projects";
 import RightSide from "@/components/RightSide";
 import Head from "next/head";
 import { motion } from "framer-motion";
+import '../src/i18n'; // Importa tu configuración de i18next
+import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default function Home() {
   return (
@@ -18,9 +20,10 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.ico" />
       </Head>
+
       <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight  overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60">
         <Navbar />
-        <div className="w-full h-[88vh] xl:flex items-center gap-20 justify-between">
+        <div className="w-full h-[100vh] xl:flex items-center gap-20 justify-between">
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
