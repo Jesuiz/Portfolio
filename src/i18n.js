@@ -13,7 +13,7 @@ const resources = {
       "hello": "Hola, soy",
       "name": "Jesús Ruiz",
       "description": "Me gusta Diseñar y Desarrollar Webs",
-      "bio": "Soy Diseñador Gráfico con más de 6 años de experiencia en <span class='text-textGreen'>Diseño de Identidad Visual</span> para marcas. Tengo 1 año de experiencia trabajando <span class='text-textGreen'> Aplicaciones Web con PHP y Laravel. </span> También tengo sólidos conocimientos y 2 años de experiencia construyendo <span class='text-textGreen'>Páginas Web con Wordpress.</span>",
+      "bio": "Soy Diseñador Gráfico con más de 6 años de experiencia en <span class='text-textGreen'>Diseño de Identidad Visual</span> para marcas. Tengo 2 años de experiencia trabajando <span class='text-textGreen'> Aplicaciones Web con PHP y Laravel. </span> También tengo sólidos conocimientos y 3 años de experiencia construyendo <span class='text-textGreen'>Páginas Web con Wordpress.</span>",
       "download_cv": "Descargar CV",
 
       "projects": "Proyectos",
@@ -42,8 +42,8 @@ const resources = {
       "project6_3": "Scraper Web desarrollado con Python como solución para automatizar la descarga masiva de contenido en una Aplicación Web (LMS) hecha con Angular a través de logins y contenido dinámico.",
 
       "about": "Sobre Mi",
-      "about1": "I have deep connection and experience with Branding and Visual Identity Design. In 2017 I left my university studies in Graphic Design unfinished, although I have worked on it for more than 6 years.",
-      "about2": "Recientemente, en el 2023, me interesé en el Desarrollo de Aplicaciones Web y desde entonces he estado aprendiendo sin parar. Tengo conocimientos básicos en PHP, Laravel y otras tecnologías, esto me permite modificar y desplegar Aplicaciones Web en base al reconocido modelo MVC. Hasta ahora, he implementado una solución CRM para una inmobiliaria de Lima, Perú.",
+      "about1": "Tengo profunda conexión y experiencia con Branding y Diseño de Identidad Visual. En 2017 dejé inconclusos mis estudios universitarios de Diseño Gráfico, aunque he trabajado en ello durante más de 6 años.",
+      "about2": "Recientemente, en el 2022, me interesé en el Desarrollo de Aplicaciones Web y desde entonces he estado aprendiendo sin parar. Tengo conocimientos básicos en PHP, Laravel y otras tecnologías, esto me permite modificar y desplegar Aplicaciones Web en base al reconocido modelo MVC. Hasta ahora, he implementado una solución CRM para una inmobiliaria de Lima, Perú.",
       "about3": "Adicionalmente, tengo mucha experiencia ofreciendo Páginas Web con Wordpress, por lo que tengo sólidos conocimientos para implementarlas muy rapidamente, modificando el código para obtener funciones personalizadas y optimizaciones de velocidad.",
       "about4": "Estas son todas las tecnologías y habilidades que manejo, tanto para Diseño como para Desarrollo:",
 
@@ -63,7 +63,7 @@ const resources = {
       "hello": "Hello, I'm",
       "name": "Jesús Ruiz",
       "description": "I love Designing and Developing Websites",
-      "bio": "I am a Graphic Designer with over 6 years of experience in <span class='text-textGreen'>Visual Identity Design</span> for brands. I have 1 year of experience working on <span class='text-textGreen'> Web Applications with PHP and Laravel. </span> I also have solid knowledge and 2 years of experience building <span class='text-textGreen'>Websites with Wordpress.</span>",
+      "bio": "I am a Graphic Designer with over 6 years of experience in <span class='text-textGreen'>Visual Identity Design</span> for brands. I have 2 years of experience working on <span class='text-textGreen'> Web Applications with PHP and Laravel. </span> I also have solid knowledge and 3 years of experience building <span class='text-textGreen'>Websites with Wordpress.</span>",
       "download_cv": "Download CV",
 
       "projects": "Projects",
@@ -93,7 +93,7 @@ const resources = {
       
       "about": "About Me",
       "about1": "I have deep connection and experience with Branding and Visual Identity Design. In 2017 I left my university studies in Graphic Design unfinished, although I have worked on it for more than 6 years.",
-      "about2": "Recently, in 2023, I became interested in Web Application Development and since then I have been learning non-stop. I have basic knowledge in PHP, Laravel and other technologies, this allows me to modify and deploy Web Applications based on the recognized MVC model. So far, I have implemented a CRM solution for a real estate company in Lima, Peru.",
+      "about2": "Recently, in 2022, I became interested in Web Application Development and since then I have been learning non-stop. I have basic knowledge in PHP, Laravel and other technologies, this allows me to modify and deploy Web Applications based on the recognized MVC model. So far, I have implemented a CRM solution for a real estate company in Lima, Peru.",
       "about3": "Additionally, I have a lot of experience offering Websites with Wordpress, so I have solid knowledge to implement them very quickly, modifying the code to obtain custom functions and speed optimizations.",
       "about4": "These are all the technologies and skills that I use, both for Design and Development:",
 
