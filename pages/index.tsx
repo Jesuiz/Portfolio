@@ -21,7 +21,7 @@ export default function Home() {
         <link rel="icon" href="/logo.ico" />
       </Head>
 
-      <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight  overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60">
+      <main className="w-full h-screen font-bodyFont bg-bodyColor text-textLight overflow-x-hidden overflow-y-scroll scrollbar scrollbar-track-textDark/20 scrollbar-thumb-textDark/60">
         <Navbar />
         <div className="w-full h-[100vh] xl:flex items-center gap-20 justify-between">
           <motion.div
@@ -32,7 +32,7 @@ export default function Home() {
           >
             <LeftSide />
           </motion.div>
-          <div className="h-[88vh] mx-auto p-4" >
+          <div className=" h-[88vh] sm:w-[90%] md:w-[90%] lgl:w-[100%] mx-auto p-5">
             <Banner />
             <Projects />
             <About />

@@ -42,10 +42,11 @@ const Navbar = () => {
       setShow(false);
     }
   }
-
+  
+  const cvUrl = i18n.language === 'en' ? "/assets/cv_en_jesus_ruiz.pdf" : "/assets/cv_es_jesus_ruiz.pdf";
 
   return (
-    <div className="w-full shadow-navbarShadow h-20 lg:h-[12vh] sticky top-0 z-50 bg-bodyColor px-4">
+    <div className="w-full shadow-navbarShadow h-14 md:h-20 lgl:h-20 sticky top-0 z-50 bg-bodyColor px-4">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
 
         {/* ============ ListItem Start here ======== */}
@@ -111,22 +112,10 @@ const Navbar = () => {
               </motion.li>
             </Link>
           </ul>
-          
-          {/* Language Switcher 
-          <a href="/assets/jesuiz_cv.pdf" target="_blank">
-            <motion.button
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.5 }}
-              className="px-7 py-2 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
-            >
-              {t('download_cv')}
-            </motion.button>
-          </a>
-          */}
+    
 
           {/* Language Switcher */}
-          <div className="flex items-center gap-4">
+          <div className="flex items-center mt-2 gap-4">
           <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -154,12 +143,19 @@ const Navbar = () => {
         {/* ============== Small Icon Start here =========== */}
         <div
           onClick={() => setShow(true)}
-          className="max-w-container mx-auto w-6 h-5 flex flex-col justify-between items-center mdl:hidden text-4xl text-textGreen cursor-pointer overflow-hidden group"
+          className="max-w-container mx-auto gap-6 flex flex-grid justify-between items-center mdl:hidden text-textGreen cursor-pointer overflow-hidden group"
         >
-          <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
-          <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
-          <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
+          <p className="text-1x1">Menu</p>
+          
+          {/*
+          <div>
+            <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
+            <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
+            <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
+          </div> */}
         </div>
+
+
         {show && (
           <div
             ref={(node) => (ref.current = node)}
@@ -176,6 +172,29 @@ const Navbar = () => {
                 onClick={() => setShow(false)}
                 className="text-3xl text-textGreen cursor-pointer hover:text-red-500 absolute top-4 right-4"
               />
+
+              {/* Language Switcher */}
+              <div id="switch2" className="flex items-center gap-4 mb-10">
+              <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.5 }}
+                >
+                  <button onClick={() => changeLanguage('en')} style={{ width: 32, height: 32 }}>
+                    <Image src="/assets/uk-flag.png" alt="English" width={24} height={24} />
+                  </button>
+                </motion.div>
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.6 }}
+                >
+                  <button onClick={() => changeLanguage('es')} style={{ width: 32, height: 32 }}>
+                    <Image src="/assets/spain-flag.png" alt="Spanish" width={24} height={24} />
+                  </button>
+                </motion.div>
+              </div>
+
               <div className="flex flex-col items-center gap-7">
                 <ul className="flex flex-col text-base gap-7 items-center w-full">
                   <Link
@@ -191,21 +210,6 @@ const Navbar = () => {
                       {t('home')}
                     </motion.li>
                   </Link>
-
-                  <Link
-                    className="flex items-center gap-1 font-medium text-textLight hover:text-textGreen cursor-pointer duration-300 nav-link"
-                    href="#about"
-                    onClick={handleScroll}
-                  >
-                    <motion.li
-                      initial={{ x: 20, opacity: 0 }}
-                      animate={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 0.2, delay: 0.2, ease: "easeIn" }}
-                    >
-                      <span className="text-textGreen">01. </span>
-                      {t('about')}
-                    </motion.li>
-                  </Link>
                   <Link
                     className="flex items-center gap-1 font-medium text-textLight hover:text-textGreen cursor-pointer duration-300 nav-link"
                     href="#project"
@@ -216,8 +220,22 @@ const Navbar = () => {
                       animate={{ x: 0, opacity: 1 }}
                       transition={{ duration: 0.2, delay: 0.4, ease: "easeIn" }}
                     >
-                      <span className="text-textGreen">02. </span>
+                      <span className="text-textGreen">01. </span>
                       {t('projects')}
+                    </motion.li>
+                  </Link>
+                  <Link
+                    className="flex items-center gap-1 font-medium text-textLight hover:text-textGreen cursor-pointer duration-300 nav-link"
+                    href="#about"
+                    onClick={handleScroll}
+                  >
+                    <motion.li
+                      initial={{ x: 20, opacity: 0 }}
+                      animate={{ x: 0, opacity: 1 }}
+                      transition={{ duration: 0.2, delay: 0.2, ease: "easeIn" }}
+                    >
+                      <span className="text-textGreen">02. </span>
+                      {t('about')}
                     </motion.li>
                   </Link>
                   <Link
@@ -235,7 +253,7 @@ const Navbar = () => {
                     </motion.li>
                   </Link>
                 </ul>
-                <a href="/assets/jesuiz_cv.pdf" target="_blank">
+                <a href={cvUrl} target="_blank">
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -250,7 +268,7 @@ const Navbar = () => {
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ delay: 0.95, ease: "easeIn" }}
-                    href="www.linkedin.com/in/jesuiz" target="_blank"
+                    href="https://www.linkedin.com/in/jesuiz" target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-[#512eed] border-[1px] border-white hover:border-textGreen text-white rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300 mt-5">
                       <SlSocialLinkedin />
@@ -274,9 +292,10 @@ const Navbar = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 1.2, ease: "easeIn" }}
                 className="text-sm w-72 tracking-widest text-textLight text-center mt-10"
-                href="mailto:jesuiz.design@gmail.com"
+                href="mailto:jesuizmail@gmail.com"
               >
-                <p>jesuiz.design@gmail.com</p>
+                <p>{t('mail-me')}</p>
+                <p><b>jesuizmail@gmail.com</b></p>
               </motion.a>
             </motion.div>
           </div>

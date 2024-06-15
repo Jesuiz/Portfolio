@@ -9,10 +9,12 @@ const resources = {
       "about": "Sobre Mí",
       "projects": "Proyectos",
       "contact": "Contacto",
+      "mail-me": "Envíame un correo a:",
 
       "hello": "Hola, soy",
       "name": "Jesús Ruiz",
-      "description": "Me gusta Diseñar y Desarrollar Webs",
+      "description1": "Me gusta Diseñar",
+      "description2": "y Desarrollar Webs",
       "bio": "Soy Diseñador Gráfico con más de 6 años de experiencia en <span class='text-textGreen'>Diseño de Identidad Visual</span> para marcas. Tengo 2 años de experiencia trabajando <span class='text-textGreen'> Aplicaciones Web con PHP y Laravel. </span> También tengo sólidos conocimientos y 3 años de experiencia construyendo <span class='text-textGreen'>Páginas Web con Wordpress.</span>",
       "download_cv": "Descargar CV",
 
@@ -47,9 +49,11 @@ const resources = {
       "about3": "Adicionalmente, tengo mucha experiencia ofreciendo Páginas Web con Wordpress, por lo que tengo sólidos conocimientos para implementarlas muy rapidamente, modificando el código para obtener funciones personalizadas y optimizaciones de velocidad.",
       "about4": "Estas son todas las tecnologías y habilidades que manejo, tanto para Diseño como para Desarrollo:",
 
-      "contact1": "Contáctame",
-      "contact2": "Estoy buscando nuevas oportunidades, mi bandeja de entrada siempre está abierta. Si tienes alguna pregunta o simplemente comentarme sobre algún proyecto, ¡te responderé en breve!",
+      "contact": "Contáctame",
+      "contact1": "Estoy buscando nuevas oportunidades, mi bandeja de entrada siempre está abierta.",
+      "contact2": "Si tienes alguna pregunta o simplemente comentarme sobre algún proyecto, ¡te responderé en breve!",
       "contact3": "Enviar Correo",
+
 
     }
   },
@@ -59,10 +63,12 @@ const resources = {
       "about": "About",
       "projects": "Projects",
       "contact": "Contact",
+      "mail-me": "Send me an email to:",
 
       "hello": "Hello, I'm",
       "name": "Jesús Ruiz",
-      "description": "I love Designing and Developing Websites",
+      "description1": "I love Designing and",
+      "description2": "Developing Websites",
       "bio": "I am a Graphic Designer with over 6 years of experience in <span class='text-textGreen'>Visual Identity Design</span> for brands. I have 2 years of experience working on <span class='text-textGreen'> Web Applications with PHP and Laravel. </span> I also have solid knowledge and 3 years of experience building <span class='text-textGreen'>Websites with Wordpress.</span>",
       "download_cv": "Download CV",
 
@@ -97,10 +103,11 @@ const resources = {
       "about3": "Additionally, I have a lot of experience offering Websites with Wordpress, so I have solid knowledge to implement them very quickly, modifying the code to obtain custom functions and speed optimizations.",
       "about4": "These are all the technologies and skills that I use, both for Design and Development:",
 
-      "contact1": "Contact Me",
-      "contact2": "I'm looking for new opportunities, my inbox is always open. If you have any questions or just tell me about a project, I will respond shortly!",
+      "contact": "Contact Me",
+      "contact1": "I'm looking for new opportunities, my inbox is always open.",
+      "contact2": "If you have any questions or just tell me about a project, I will respond shortly!",
       "contact3": "Send Mail",
-
+      
     }
   }
 };

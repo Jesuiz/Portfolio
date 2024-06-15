@@ -1,11 +1,9 @@
 import React, { useEffect } from 'react';
 
-
 const Scroll: React.FC = () => {
   useEffect(() => {
     const scrollers = document.querySelectorAll(".scroller");
 
-    // Si un usuario no ha optado por reducir el movimiento, agregamos la animación
     if (!window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
       addAnimation();
     }
@@ -30,11 +28,11 @@ const Scroll: React.FC = () => {
         });
       });
     }
-  }, []); // Se ejecutará solo una vez después de que el componente se monte
+  }, []);
 
   return (
     <div className="scroller" data-speed="fast">
-      <ul className="tag-list scroller__inner">
+      <ul className="tag-list scroller__inner w-full pr-8">
         <li>Illustrator</li>
         <li>PHP</li>
         <li>Photoshop</li>
@@ -50,5 +48,3 @@ const Scroll: React.FC = () => {
 }
 
 export default Scroll;
-
-
