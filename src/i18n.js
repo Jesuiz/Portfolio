@@ -23,8 +23,8 @@ const resources = {
       "project1_2": "Branding para Pináculo Education",
       "project1_3": "Desarrollo de Identidad Visual para Pináculo Education. Empresa que lidera la revolución del aprendizaje experiencial con la integración de tecnología educativa.",
 
-      "project2_1": "Aplicación Web con Laravel",
-      "project2_2": "CRM para Coiintawa",
+      "project2_1": "CRM con Laravel",
+      "project2_2": "Aplicación Web para Coiintawa",
       "project2_3": "Esta Aplicación Web es un CRM con esteroides para una Inmobiliaria Peruana. Desarrollé funcionalidades para facilitar la Gestión de Lotes y el Cobro Automático de Cuotas.",
 
       "project3_1": "Página Web con Wordpress",
@@ -44,10 +44,10 @@ const resources = {
       "project6_3": "Scraper Web desarrollado con Python como solución para automatizar la descarga masiva de contenido en una Aplicación Web (LMS) hecha con Angular a través de logins y contenido dinámico.",
 
       "about": "Sobre Mi",
-      "about1": "Tengo profunda conexión y experiencia con Branding y Diseño de Identidad Visual. En 2017 dejé inconclusos mis estudios universitarios de Diseño Gráfico, aunque he trabajado en ello durante más de 6 años.",
-      "about2": "Recientemente, en el 2022, me interesé en el Desarrollo de Aplicaciones Web y desde entonces he estado aprendiendo sin parar. Tengo conocimientos básicos en PHP, Laravel y otras tecnologías, esto me permite modificar y desplegar Aplicaciones Web en base al reconocido modelo MVC. Hasta ahora, he implementado una solución CRM para una inmobiliaria de Lima, Perú.",
-      "about3": "Adicionalmente, tengo mucha experiencia ofreciendo Páginas Web con Wordpress, por lo que tengo sólidos conocimientos para implementarlas muy rapidamente, modificando el código para obtener funciones personalizadas y optimizaciones de velocidad.",
-      "about4": "Estas son todas las tecnologías y habilidades que manejo, tanto para Diseño como para Desarrollo:",
+      "about1": "Poseo una sólida trayectoria y una profunda conexión con el Branding y el Diseño de Identidad Visual. Aunque en 2017 dejé mis estudios universitarios en Diseño Gráfico sin finalizar, he acumulado más de seis años de experiencia práctica en este campo, desarrollando y ejecutando proyectos significativos que han fortalecido mis competencias.",
+      "about2": "En 2022, decidí ampliar mis horizontes y me sumergí en el Desarrollo de Aplicaciones Web. Desde entonces, he estado en un constante proceso de aprendizaje y perfeccionamiento. He adquirido conocimientos en PHP, Laravel y otras tecnologías relevantes, lo que me permite modificar y desplegar aplicaciones web eficaces utilizando el modelo MVC. Una de mis implementaciones más destacadas es una solución CRM desarrollada para una empresa inmobiliaria en Lima, Perú.",
+      "about3": "Además, tengo una amplia experiencia en la creación y personalización de sitios web utilizando Wordpress. Este conocimiento me permite desarrollar sitios de manera rápida y eficiente, ajustando el código para integrar funciones personalizadas y optimizaciones de rendimiento.",
+      "about4": "Éstas son las principales tecnologías y habilidades que domino en las áreas de Diseño y Desarrollo:",
 
       "contact": "Contáctame",
       "contact1": "Estoy buscando nuevas oportunidades, mi bandeja de entrada siempre está abierta.",
@@ -77,8 +77,8 @@ const resources = {
       "project1_2": "Branding for Pináculo Education",
       "project1_3": "Visual Identity Development for Pináculo Education. Company leading the experiential learning revolution with the integration of educational technology.",
 
-      "project2_1": "Web App with Laravel",
-      "project2_2": "CRM for Coiintawa",
+      "project2_1": "CRM with Laravel",
+      "project2_2": "Web App for Coiintawa",
       "project2_3": "This Web Application is a steroid-infused CRM for a Peruvian Real Estate Company. I developed features to facilitate Lot Management and Automatic Instalment Collection.",
 
       "project3_1": "Website with Wordpress",
@@ -98,10 +98,10 @@ const resources = {
       "project6_3": "Web Scraper developed with Python as a solution to automate the massive download of content in a Web Application (LMS) made with Angular through logins and dynamic content.",
       
       "about": "About Me",
-      "about1": "I have deep connection and experience with Branding and Visual Identity Design. In 2017 I left my university studies in Graphic Design unfinished, although I have worked on it for more than 6 years.",
-      "about2": "Recently, in 2022, I became interested in Web Application Development and since then I have been learning non-stop. I have basic knowledge in PHP, Laravel and other technologies, this allows me to modify and deploy Web Applications based on the recognized MVC model. So far, I have implemented a CRM solution for a real estate company in Lima, Peru.",
-      "about3": "Additionally, I have a lot of experience offering Websites with Wordpress, so I have solid knowledge to implement them very quickly, modifying the code to obtain custom functions and speed optimizations.",
-      "about4": "These are all the technologies and skills that I use, both for Design and Development:",
+      "about1": "I have a solid background and a deep connection with Branding and Visual Identity Design. Although I left my university studies in Graphic Design unfinished in 2017, I have accumulated more than six years of practical experience in this field, developing and executing significant projects that have strengthened my skills.",
+      "about2": "In 2022, I decided to broaden my horizons and dove into Web Application Development. Since then, I have been in a constant process of learning and improving. I have acquired knowledge in PHP, Laravel and other relevant technologies, allowing me to modify and deploy effective web applications using the MVC model. One of my most notable implementations is a CRM solution developed for a real estate company in Lima, Peru.",
+      "about3": "Additionally, I have extensive experience creating and customizing websites using Wordpress. This knowledge allows me to develop sites quickly and efficiently, adjusting the code to integrate custom features and performance optimizations.",
+      "about4": "These are the main technologies and skills that I master in the areas of Design and Development:",
 
       "contact": "Contact Me",
       "contact1": "I'm looking for new opportunities, my inbox is always open.",

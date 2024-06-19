@@ -115,7 +115,7 @@ const Navbar = () => {
     
 
           {/* Language Switcher */}
-          <div className="flex items-center mt-2 gap-4">
+          <div className="flex items-center gap-4 2xl:mt-2">
           <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -176,18 +176,18 @@ const Navbar = () => {
               {/* Language Switcher */}
               <div id="switch2" className="flex items-center gap-4 mb-10">
               <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 0.5 }}
+                  initial={{ x: 20, opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.2, delay: 0.1, ease: "easeIn" }}
                 >
                   <button onClick={() => changeLanguage('en')} style={{ width: 32, height: 32 }}>
                     <Image src="/assets/uk-flag.png" alt="English" width={24} height={24} />
                   </button>
                 </motion.div>
                 <motion.div
-                  initial={{ opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  transition={{ delay: 0.6 }}
+                  initial={{ x: 20, opacity: 0 }}
+                  animate={{ x: 0, opacity: 1 }}
+                  transition={{ duration: 0.2, delay: 0.2, ease: "easeIn" }}
                 >
                   <button onClick={() => changeLanguage('es')} style={{ width: 32, height: 32 }}>
                     <Image src="/assets/spain-flag.png" alt="Spanish" width={24} height={24} />
@@ -205,7 +205,7 @@ const Navbar = () => {
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
                       animate={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 0.2, delay: 0.1, ease: "easeIn" }}
+                      transition={{ duration: 0.2, delay: 0.3, ease: "easeIn" }}
                     >
                       {t('home')}
                     </motion.li>
@@ -232,7 +232,7 @@ const Navbar = () => {
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
                       animate={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 0.2, delay: 0.2, ease: "easeIn" }}
+                      transition={{ duration: 0.2, delay: 0.5, ease: "easeIn" }}
                     >
                       <span className="text-textGreen">02. </span>
                       {t('about')}
@@ -246,7 +246,7 @@ const Navbar = () => {
                     <motion.li
                       initial={{ x: 20, opacity: 0 }}
                       animate={{ x: 0, opacity: 1 }}
-                      transition={{ duration: 0.2, delay: 0.5, ease: "easeIn" }}
+                      transition={{ duration: 0.2, delay: 0.6, ease: "easeIn" }}
                     >
                       <span className="text-textGreen">03. </span>
                       {t('contact')}
@@ -257,7 +257,7 @@ const Navbar = () => {
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
-                    transition={{ delay: 0.6, ease: "easeIn" }}
+                    transition={{ duration: 0.2, delay: 0.7, ease: "easeIn" }}
                     className="px-4 py-2 rounded-md text-white lgl:mt-5 text-[13px] border border-white hover:bg-hoverColor duration-300 mb-4 lgl:mb-5 mt-5"
                   >
                     {t('download_cv')}
@@ -267,7 +267,7 @@ const Navbar = () => {
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 0.95, ease: "easeIn" }}
+                    transition={{ duration: 0.2, delay: 0.8, ease: "easeIn" }}
                     href="https://www.linkedin.com/in/jesuiz" target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-[#512eed] border-[1px] border-white hover:border-textGreen text-white rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300 mt-5">
@@ -277,7 +277,7 @@ const Navbar = () => {
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
-                    transition={{ delay: 1, ease: "easeIn" }}
+                    transition={{ duration: 0.2, delay: 0.8, ease: "easeIn" }}
                     href="https://www.behance.net/jesuiz" target="_blank"
                   >
                     <span className="w-10 h-10 text-xl bg-[#512eed] border-[1px] border-white hover:border-textGreen text-white rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300 mt-5">
@@ -290,7 +290,7 @@ const Navbar = () => {
               <motion.a
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
-                transition={{ delay: 1.2, ease: "easeIn" }}
+                transition={{ duration: 0.2, delay: 0.9, ease: "easeIn" }}
                 className="text-sm w-72 tracking-widest text-textLight text-center mt-10"
                 href="mailto:jesuizmail@gmail.com"
               >

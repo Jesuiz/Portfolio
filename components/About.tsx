@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section 
       id="about"
-      className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-10 mdl:px-10 xl:px-4 items-center"
+      className="max-w-contentContainer mx-auto py-10 md:py-20 flex flex-col gap-10 mdl:px-10 xl:px-4 items-center"
     >
       <SectionTitle title={t('about')} titleNo="02" />
       
@@ -21,69 +21,69 @@ const About = () => {
           <p>{t('about3')}</p>
           <p>{t('about4')}</p>
           
-          <ul className="w-full text-center text-sm font-titleFont grid grid-cols-3 gap-1 mt-6">
+          <ul className="w-full text-center text-sm font-titleFont md:grid md:grid-cols-3 gap-1 mt-6">
             
-            <li className="flex items-center justify-center text-center gap-2">
+            <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               PHP
             </li>
-            <li className="flex items-center justify-center text-center gap-2">
+            <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               Laravel
             </li>
-            <li className="flex items-center justify-center text-center gap-2">
+            <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               MySQL
             </li>
-            <li className="flex items-center justify-center text-center gap-2">
+            <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               Wordpress
             </li>
-            <li className="flex items-center justify-center text-center gap-2">
+            <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               Tailwind CSS
             </li>
-            <li className="flex items-center justify-center text-center gap-2">
+            <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               AWS S3
             </li>
-            <li className="flex items-center justify-center text-center gap-2">
+            <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               BootStrap
             </li>
-            <li className="flex items-center justify-center text-center gap-2">
+            <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               Photoshop
             </li>
-            <li className="flex items-center justify-center text-center gap-2">
+            <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               Illustrator
             </li>
-            <li className="flex items-center justify-center text-center gap-2">
+            <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
               Figma
             </li>
-            <li className="flex items-center justify-center text-center gap-2">
+            <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>

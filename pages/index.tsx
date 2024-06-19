@@ -32,19 +32,19 @@ export default function Home() {
           >
             <LeftSide />
           </motion.div>
-          <div className=" h-[88vh] sm:w-[90%] md:w-[90%] lgl:w-[100%] mx-auto p-5">
+          <div className=" h-[88vh] w-[95%] sm:w-[95%] md:w-[90%] lgl:w-[80%] mx-auto p-5 lgl:pl-10">
             <Banner />
+
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5 }}>
             <Projects />
+          </motion.div>
+
             <About />
             <Contact />
             <Footer />
           </div>
-          <motion.div
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ delay: 1.5 }}
-            className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0"
-          >
+
+          <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 1.5 }} className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0">
             <RightSide />
           </motion.div>
         </div>

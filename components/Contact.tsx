@@ -8,12 +8,12 @@ const Contact = () => {
   return (
     <section 
       id="contact"
-      className="max-w-contentContainer mx-auto py-10 mdl:py-24 flex flex-col gap-10 mdl:px-10 xl:px-4 items-center"
+      className="max-w-contentContainer mx-auto py-10 md:py-20 flex flex-col gap-10 mdl:px-10 xl:px-4 items-center"
     >
       <SectionTitle title={t('contact')} titleNo="03" />
       
           <div className="w-full flex flex-col items-center justify-center gap-28">
-          <div className="text-balance text-center w-full text-base text-textGray flex flex-col gap-4 font-semilight">
+          <div className="text-balance text-center w-full text-base text-textGray flex flex-col font-semilight">
           <p className="text-center text-textGray">{t('contact1')}</p>
           <p className="text-center text-textGray">{t('contact2')}</p>
           <a href="mailto:jesuizmail@gmail.com">
