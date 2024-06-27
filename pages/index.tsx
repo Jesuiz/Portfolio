@@ -8,7 +8,7 @@ import Projects from "@/components/Projects";
 import RightSide from "@/components/RightSide";
 import Head from "next/head";
 import { motion } from "framer-motion";
-import '../src/i18n'; // Importa tu configuración de i18next
+import '../src/i18n'; 
 import LanguageSwitcher from '@/components/LanguageSwitcher';
 
 export default function Home() {

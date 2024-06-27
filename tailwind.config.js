@@ -29,7 +29,7 @@ module.exports = {
         textGreen: "#04d6aa",
         textBlue: "#7154EF",
         textLight: "#ffff",
-        textGray: "#a2a2a2",
+        textGray: "#bdbdbd",
         textDark: "#8892b0",
         hoverColor: "rgba(100,255,218,0.1)",
         hoverColor2: "#7154EF",

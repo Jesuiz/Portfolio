@@ -1,10 +1,10 @@
-import logo from "./images/logo.png";
+import logo from "./images/logo.webp";
 import profileImg from "./images/profile.webp";
-import pinaculoEducation from "./images/pinaculoEducation.png";
-import maestroSupply from "./images/maestroSupply.png";
-import jesuizDesign from "./images/jesuizDesign.png";
-import elValleDorado from "./images/elValleDorado.png";
-import crmCoiintawa from "./images/crmCoiintawa.png";
-import pythonScraper from "./images/pythonScraper.png";
+import pinaculoEducation from "./images/pinaculoEducation.webp";
+import maestroSupply from "./images/maestroSupply.webp";
+import jesuizDesign from "./images/jesuizDesign.webp";
+import elValleDorado from "./images/elValleDorado.webp";
+import crmCoiintawa from "./images/crmCoiintawa.webp";
+import pythonScraper from "./images/pythonScraper.webp";
 
 export { logo, profileImg, pinaculoEducation, maestroSupply, jesuizDesign, elValleDorado, crmCoiintawa, pythonScraper };
