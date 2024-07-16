@@ -21,7 +21,7 @@ const About = () => {
           <p>{t('about3')}</p>
           <p>{t('about4')}</p>
           
-          <ul className="w-full text-center text-sm font-titleFont md:grid md:grid-cols-3 gap-1 mt-6">
+          <ul className="w-full text-center text-sm font-titleFont grid grid-cols-3 gap-1 mt-6">
             
             <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
@@ -34,6 +34,30 @@ const About = () => {
                 <AiFillThunderbolt />
               </span>
               Laravel
+            </li>            
+            <li className="flex justify-center items-center text-left gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Filament
+            </li>            
+            <li className="flex justify-center items-center text-left gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              JavaScript
+            </li>            
+            <li className="flex justify-center items-center text-left gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              TypeScript
+            </li>
+            <li className="flex justify-center items-center text-left gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Axios
             </li>
             <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
@@ -51,7 +75,13 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Tailwind CSS
+              Tailwind
+            </li>
+            <li className="flex justify-center items-center text-left gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              BootStrap
             </li>
             <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
@@ -63,7 +93,25 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              BootStrap
+              Cloudflare
+            </li>
+            <li className="flex justify-center items-center text-left gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              SEO
+            </li>
+            <li className="flex justify-center items-center text-left gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Branding
+            </li>
+            <li className="flex justify-center items-center text-left gap-2">
+              <span className="text-textGreen">
+                <AiFillThunderbolt />
+              </span>
+              Figma
             </li>
             <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">
@@ -76,12 +124,6 @@ const About = () => {
                 <AiFillThunderbolt />
               </span>
               Illustrator
-            </li>
-            <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
-              Figma
             </li>
             <li className="flex justify-center items-center text-left gap-2">
               <span className="text-textGreen">

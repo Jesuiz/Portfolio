@@ -32,7 +32,7 @@ const Scroll: React.FC = () => {
 
   return (
     <div className="scroller" data-speed="fast">
-      <ul className="tag-list scroller__inner w-full pr-8">
+      <ul className="tag-list scroller__inner">
         <li>Illustrator</li>
         <li>PHP</li>
         <li>Photoshop</li>

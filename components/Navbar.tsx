@@ -1,5 +1,4 @@
 import { useRef, useState } from "react";
-import { logo } from "@/public/assets";
 import Image from "next/image";
 import Link from "next/link";
 import {
@@ -115,14 +114,14 @@ const Navbar = () => {
     
 
           {/* Language Switcher */}
-          <div className="flex items-center gap-4 2xl:mt-2">
+          <div className="flex items-center gap-4 mt-1 2xl:mt-2">
           <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ delay: 0.5 }}
             >
               <button onClick={() => changeLanguage('en')} style={{ width: 32, height: 32 }}>
-                <Image src="/assets/uk-flag.png" alt="English" width={24} height={24} />
+                <Image src="/assets/images/uk-flag.webp" alt="English" width={24} height={24} />
               </button>
             </motion.div>
             <motion.div
@@ -131,7 +130,7 @@ const Navbar = () => {
               transition={{ delay: 0.6 }}
             >
               <button onClick={() => changeLanguage('es')} style={{ width: 32, height: 32 }}>
-                <Image src="/assets/spain-flag.png" alt="Spanish" width={24} height={24} />
+                <Image src="/assets/images/spain-flag.webp" alt="Spanish" width={24} height={24} />
               </button>
             </motion.div>
           </div>
