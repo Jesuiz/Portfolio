@@ -4,6 +4,7 @@ import Link from "next/link";
 import {
   SlSocialLinkedin,
   SlSocialBehance,
+  SlSocialGithub,
 } from "react-icons/sl";
 import { MdOutlineClose } from "react-icons/md";
 import { motion } from "framer-motion";
@@ -11,6 +12,10 @@ import { useTranslation } from 'react-i18next';
 
 const Navbar = () => {
   const { t, i18n } = useTranslation();
+
+  const viewCvUrl = i18n.language === 'en' ? "https://jesus-cv.vercel.app/index-en" : "https://jesus-cv.vercel.app";
+  const downloadCvUrl = i18n.language === 'en' ? "/assets/cv_en_jesuiz.pdf" : "/assets/cv_es_jesuiz.pdf";
+
   const ref = useRef<string | any>("");
   const [show, setShow] = useState(false);
   
@@ -27,7 +32,6 @@ const Navbar = () => {
     elem?.scrollIntoView({
       behavior: "smooth",
     });
-    // Update the class name of the clicked link
     const links = document.querySelectorAll(".nav-link");
     links.forEach((link) => {
       link.classList.remove("active");
@@ -37,12 +41,9 @@ const Navbar = () => {
 
   function handleClick(e: any) {
     if (e.target.contains(ref.current)) {
-      // do something with myRef.current
       setShow(false);
     }
   }
-  
-  const cvUrl = i18n.language === 'en' ? "/assets/cv_en_jesus_ruiz.pdf" : "/assets/cv_es_jesus_ruiz.pdf";
 
   return (
     <div className="w-full shadow-navbarShadow h-14 md:h-20 lgl:h-20 sticky top-0 z-50 bg-bodyColor px-4">
@@ -145,13 +146,6 @@ const Navbar = () => {
           className="max-w-container mx-auto gap-6 flex flex-grid justify-between items-center mdl:hidden text-textGreen cursor-pointer overflow-hidden group"
         >
           <p className="text-1x1">Menu</p>
-          
-          {/*
-          <div>
-            <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
-            <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
-            <span className="w-full h-[2px] bg-textGreen inline-flex transform group-hover:translate-x-2 transition-all ease-in-out duration-300"></span>
-          </div> */}
         </div>
 
 
@@ -165,7 +159,7 @@ const Navbar = () => {
               initial={{ x: 20, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.1 }}
-              className="w-[60%] h-full overflow-y-scroll scrollbarHide bg-[#512eed] flex flex-col items-center px-4 py-10 relative"
+              className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-[#512eed] flex flex-col items-center px-4 py-10 relative"
             >
               <MdOutlineClose
                 onClick={() => setShow(false)}
@@ -252,17 +246,39 @@ const Navbar = () => {
                     </motion.li>
                   </Link>
                 </ul>
-                <a href={cvUrl} target="_blank">
+                
+                <a href={viewCvUrl} target="_blank" className="w-full">
                   <motion.button
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
                     transition={{ duration: 0.2, delay: 0.7, ease: "easeIn" }}
-                    className="px-4 py-2 rounded-md text-white lgl:mt-5 text-[13px] border border-white hover:bg-hoverColor duration-300 mb-4 lgl:mb-5 mt-5"
+                    className="w-full px-4 py-2 rounded-md text-white lgl:mt-5 text-[13px] border border-white hover:bg-hoverColor duration-300 mt-5"
+                  >
+                    {t('view_resume')}
+                  </motion.button>
+                </a>
+                <a href={downloadCvUrl} download className="w-full">
+                  <motion.button
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.2, delay: 0.7, ease: "easeIn" }}
+                    className="w-full px-4 py-2 rounded-md text-white lgl:mt-5 text-[13px] border border-white hover:bg-hoverColor duration-300 mb-4 lgl:mb-5"
                   >
                     {t('download_cv')}
                   </motion.button>
                 </a>
+
                 <div className="flex gap-4">
+                  <motion.a
+                    initial={{ y: 20, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    transition={{ duration: 0.2, delay: 0.8, ease: "easeIn" }}
+                    href="https://github.com/Jesuiz" target="_blank"
+                  >
+                    <span className="w-10 h-10 text-xl bg-[#512eed] border-[1px] border-white hover:border-textGreen text-white rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300 mt-5">
+                      <SlSocialGithub />
+                    </span>
+                  </motion.a>
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}

@@ -10,7 +10,7 @@ const Projects = () => {
   const { t, i18n } = useTranslation();
 
   return (
-    <section id="project" className="max-w-contentContainer mx-auto py-5 md:py-20 flex flex-col gap-10 items-center">
+    <section id="project" className="max-w-contentContainer mx-auto py-6 md:py-20 flex flex-col gap-10 items-center">
       <SectionTitle title={t('projects')} titleNo="01" />
 
       <div className="w-full flex flex-col items-center justify-center gap-20">

@@ -32,18 +32,10 @@ export default function Home() {
           >
             <LeftSide />
           </motion.div>
-          <div className=" h-[88vh] w-[95%] sm:w-[95%] md:w-[90%] lgl:w-[80%] mx-auto p-5 xl:pl-10">
 
-            <Banner />
+          <div className=" h-[88vh] w-[95%] sm:w-[95%] md:w-[90%] lgl:w-[80%] mx-auto p-5 xl:pl-10">
             
-            <div className="w-full flex flex-col items-center justify-center md:pb-10 invisible md:visible">
-              <motion.div
-                initial={{ y: 0, opacity: 0 }}
-                animate={{ y: 0, opacity: 1 }}
-                transition={{ duration: 0.5, delay: 0.9 }}>
-                <Scroll />
-              </motion.div>
-            </div>
+            <Banner />
 
             <motion.div
               initial={{ opacity: 0 }}

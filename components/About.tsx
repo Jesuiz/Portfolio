@@ -19,7 +19,6 @@ const About = () => {
           <p>{t('about1')}</p>
           <p>{t('about2')}</p>
           <p>{t('about3')}</p>
-          <p>{t('about4')}</p>
           
           <ul className="w-full text-center text-sm font-titleFont grid grid-cols-3 gap-1 mt-6">
             

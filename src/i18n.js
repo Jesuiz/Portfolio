@@ -13,9 +13,11 @@ const resources = {
 
       "hello": "Hola, soy",
       "name": "Jesús Ruiz",
-      "description1": "Me gusta Diseñar",
-      "description2": "y Desarrollar Webs",
-      "bio": "Soy Diseñador Gráfico con más de 6 años de experiencia en <span class='text-textGreen'>Diseño de Identidad Visual</span> para marcas. Tengo 2 años de experiencia trabajando <span class='text-textGreen'> Aplicaciones Web con PHP y Laravel. </span> También tengo sólidos conocimientos y 3 años de experiencia construyendo <span class='text-textGreen'>Páginas Web con Wordpress.</span>",
+      "description1": "Desarrollador Full Stack Junior",
+      "description2": "y Diseñador Gráfico Senior",
+      "bio": "Con más de 6 años como Diseñador Gráfico, me especializo en <span class='text-textGreen'>Diseño de Identidad Visual</span> para marcas. En los últimos 2 años, he trabajado en el desarrollo de <span class='text-textGreen'>Aplicaciones Web con PHP y Laravel.</span> También tengo una sólida experiencia de 3 años desarrollando <span class='text-textGreen'>Páginas Web con WordPress.</span>",
+
+      "view_resume": "Ver CV",
       "download_cv": "Descargar CV",
 
       "projects": "Proyectos",
@@ -51,10 +53,9 @@ const resources = {
       "project7_3": "Desarrollo de Identidad Visual para El Valle Dorado. Negocio campestre ubicado en Perú, su identidad busca representar la frescura de la comida hecha en casa y la tranquilidad campestre.",
 
       "about": "Sobre Mi",
-      "about1": "Poseo una sólida trayectoria y una profunda conexión con el Branding y el Diseño de Identidad Visual. Aunque en 2017 dejé mis estudios universitarios en Diseño Gráfico sin finalizar, he acumulado más de seis años de experiencia práctica en este campo, desarrollando y ejecutando proyectos significativos que han fortalecido mis competencias.",
-      "about2": "En 2022, decidí ampliar mis horizontes y me sumergí en el Desarrollo de Aplicaciones Web. Desde entonces, he estado en un constante proceso de aprendizaje y perfeccionamiento. He adquirido conocimientos en PHP, Laravel y otras tecnologías relevantes, lo que me permite modificar y desplegar aplicaciones web eficaces utilizando el modelo MVC. Una de mis implementaciones más destacadas es una solución CRM desarrollada para una empresa inmobiliaria en Lima, Perú.",
-      "about3": "Además, tengo una amplia experiencia en la creación y personalización de sitios web utilizando Wordpress. Este conocimiento me permite desarrollar sitios de manera rápida y eficiente, ajustando el código para integrar funciones personalizadas y optimizaciones de rendimiento.",
-      "about4": "Éstas son las principales tecnologías y habilidades que domino en las áreas de Diseño y Desarrollo:",
+      "about1": "Soy Desarrollador Full Stack Junior con 2 años de experiencia en PHP y Laravel, y conocimientos básicos en tecnologías frontend como JavaScript, React, Astro y NextJS. Tengo experiencia en el despliegue de aplicaciones en diversas plataformas, lo que me permite manejar proyectos de manera integral.",
+      "about2": "Además, cuento con 6 años de experiencia como Diseñador Gráfico Senior, especializado en Identidad Visual. Esta combinación de habilidades me permite contribuir en todas las fases del proyecto: desde el diseño de prototipos visuales, pasando por el desarrollo backend y frontend, hasta el despliegue y mantenimiento.",
+      "about3": "Éstas son las principales tecnologías y habilidades que domino en las áreas de Diseño y Desarrollo:",
 
       "contact": "Contáctame",
       "contact1": "Estoy buscando nuevas oportunidades, mi bandeja de entrada siempre está abierta.",
@@ -75,9 +76,11 @@ const resources = {
 
       "hello": "Hello, I'm",
       "name": "Jesús Ruiz",
-      "description1": "I love Designing and",
-      "description2": "Developing Websites",
-      "bio": "I am a Graphic Designer with over 6 years of experience in <span class='text-textGreen'>Visual Identity Design</span> for brands. I have 2 years of experience working on <span class='text-textGreen'> Web Applications with PHP and Laravel. </span> I also have solid knowledge and 3 years of experience building <span class='text-textGreen'>Websites with Wordpress.</span>",
+      "description1": "Junior Full Stack Developer",
+      "description2": "and Senior Graphic Designer",
+      "bio": "With over 6 years as a Graphic Designer, I specialize in <span class='text-textGreen'>Visual Identity Design</span> for brands. In the past 2 years, I have worked on developing <span class='text-textGreen'>Web Applications with PHP and Laravel.</span> I also have a solid 3 years of experience developing <span class='text-textGreen'>Websites with WordPress.</span>",
+      
+      "view_resume": "View CV",
       "download_cv": "Download CV",
 
       "projects": "Projects",
@@ -113,10 +116,9 @@ const resources = {
 
 
       "about": "About Me",
-      "about1": "I have a solid background and a deep connection with Branding and Visual Identity Design. Although I left my university studies in Graphic Design unfinished in 2017, I have accumulated more than six years of practical experience in this field, developing and executing significant projects that have strengthened my skills.",
-      "about2": "In 2022, I decided to broaden my horizons and dove into Web Application Development. Since then, I have been in a constant process of learning and improving. I have acquired knowledge in PHP, Laravel and other relevant technologies, allowing me to modify and deploy effective web applications using the MVC model. One of my most notable implementations is a CRM solution developed for a real estate company in Lima, Peru.",
-      "about3": "Additionally, I have extensive experience creating and customizing websites using Wordpress. This knowledge allows me to develop sites quickly and efficiently, adjusting the code to integrate custom features and performance optimizations.",
-      "about4": "These are the main technologies and skills that I master in the areas of Design and Development:",
+      "about1": "I am a Junior Full Stack Developer with 2 years of experience in PHP and Laravel, and basic knowledge of frontend technologies such as JavaScript, React, Astro and NextJS. I have experience in deploying applications on various platforms, which allows me to manage projects comprehensively.",
+      "about2": "In addition, I have 6 years of experience as a Senior Graphic Designer, specialized in Visual Identity. This combination of skills allows me to contribute in all phases of the project: from the design of visual prototypes, through backend and frontend development, to deployment and maintenance.",
+      "about3": "These are the main technologies and skills that I master in the areas of Design and Development:",
 
       "contact": "Contact Me",
       "contact1": "I'm looking for new opportunities, my inbox is always open.",
