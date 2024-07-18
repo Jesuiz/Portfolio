@@ -56,12 +56,6 @@ const About = () => {
               <span className="text-textGreen">
                 <AiFillThunderbolt />
               </span>
-              Axios
-            </li>
-            <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
-                <AiFillThunderbolt />
-              </span>
               MySQL
             </li>
             <li className="flex justify-center items-center text-left gap-2">
