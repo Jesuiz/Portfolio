@@ -14,7 +14,7 @@ const Navbar = () => {
   const { t, i18n } = useTranslation();
 
   const viewCvUrl = i18n.language === 'en' ? "https://jesus-cv.vercel.app/index-en" : "https://jesus-cv.vercel.app";
-  const downloadCvUrl = i18n.language === 'en' ? "/assets/cv_en_jesuiz.pdf" : "/assets/cv_es_jesuiz.pdf";
+  const downloadCvUrl = i18n.language === 'en' ? "/assets/jesus_ruiz_cv_en.pdf" : "/assets/jesus_ruiz_cv_es.pdf";
 
   const ref = useRef<string | any>("");
   const [show, setShow] = useState(false);
