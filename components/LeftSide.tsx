@@ -11,7 +11,7 @@ const LeftSide = () => {
         <a
           href="https://github.com/Jesuiz" target="_blank"
         >
-          <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+          <span className="w-10 h-10 text-xl bg-textPrimary rounded-full inline-flex items-center justify-center hover:text-textLight cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <SlSocialGithub />
           </span>
         </a>
@@ -19,7 +19,7 @@ const LeftSide = () => {
         <a
           href="https://www.linkedin.com/in/jesuiz/" target="_blank"
         >
-          <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+          <span className="w-10 h-10 text-xl bg-textPrimary rounded-full inline-flex items-center justify-center hover:text-textLight cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <SlSocialLinkedin />
           </span>
         </a>
@@ -27,7 +27,7 @@ const LeftSide = () => {
         <a
           href="https://www.behance.net/jesuiz" target="_blank"
         >
-          <span className="w-10 h-10 text-xl bg-hoverColor rounded-full inline-flex items-center justify-center hover:text-textGreen cursor-pointer hover:-translate-y-2 transition-all duration-300">
+          <span className="w-10 h-10 text-xl bg-textPrimary rounded-full inline-flex items-center justify-center hover:text-textLight cursor-pointer hover:-translate-y-2 transition-all duration-300">
             <SlSocialBehance />
           </span>
         </a>

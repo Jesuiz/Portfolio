@@ -23,103 +23,109 @@ const About = () => {
           <ul className="w-full text-center text-sm font-titleFont grid grid-cols-3 gap-1 mt-6">
             
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               PHP
             </li>
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               Laravel
             </li>            
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               Filament
             </li>            
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               JavaScript
             </li>            
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               TypeScript
             </li>
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               MySQL
             </li>
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               Wordpress
             </li>
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
+                <AiFillThunderbolt />
+              </span>
+              Shopify
+            </li>
+            <li className="flex justify-center items-center text-left gap-2">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               Tailwind
             </li>
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               BootStrap
             </li>
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               AWS S3
             </li>
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               Cloudflare
             </li>
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               SEO
             </li>
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               Branding
             </li>
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               Figma
             </li>
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               Photoshop
             </li>
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               Illustrator
             </li>
             <li className="flex justify-center items-center text-left gap-2">
-              <span className="text-textGreen">
+              <span className="text-textPrimary">
                 <AiFillThunderbolt />
               </span>
               CorelDraw

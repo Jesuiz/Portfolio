@@ -15,42 +15,61 @@ const resources = {
       "name": "Jesús Ruiz",
       "description1": "Desarrollador Full Stack Junior",
       "description2": "y Diseñador Gráfico Senior",
-      "bio": "Con más de 6 años como Diseñador Gráfico, me especializo en <span class='text-textGreen'>Diseño de Identidad Visual</span> para marcas. En los últimos 2 años, he trabajado en el desarrollo de <span class='text-textGreen'>Aplicaciones Web con PHP y Laravel.</span> También tengo una sólida experiencia de 3 años desarrollando <span class='text-textGreen'>Páginas Web con WordPress.</span>",
+      "bio": "Con más de 6 años como Diseñador Gráfico, me especializo en <span class='text-textPrimary'>Diseño de Identidad Visual</span> para marcas. En los últimos 2 años, he trabajado en el desarrollo de <span class='text-textPrimary'>Aplicaciones Web con PHP y Laravel.</span> También tengo una sólida experiencia de 3 años desarrollando <span class='text-textPrimary'>Páginas Web con WordPress y Shopify.</span>",
 
       "view_resume": "Ver CV",
       "download_cv": "Descargar CV",
 
       "projects": "Proyectos",
 
-      "projects": "Proyectos",
-      "project1_1": "CRM con Laravel",
-      "project1_2": "Aplicación Web para Coiintawa",
-      "project1_3": "Esta Aplicación Web es un CRM con esteroides para una Inmobiliaria Peruana. Desarrollé funcionalidades para facilitar la Gestión de Lotes y el Cobro Automático de Cuotas.",
+      "project1_1": "Web App CRM",
+      "project1_2": "Coiintawa - Inmobiliaria",
+      "project1_3": "Esta aplicación es un CRM con esteroides desarrollado para una inmobiliaria, con funciones para automatizar el cobro de cuotas.",
 
-      "project2_1": "SaaS con Laravel y Filament",
+      "project2_1": "Web App SaaS",
       "project2_1_2": "(En desarrollo)",
-      "project2_2": "Aplicación Web para Condoforce",
-      "project2_3": "Aplicación administrativa con todas las características esenciales para la gestión profesional de condominios, empleados, inventario, actividades, informes y más.",
+      "project2_2": "Condoforce - Admin. de Condominios",
+      "project2_3": "Aplicación administrativa con todas las funciones esenciales para la gestión de condominios, empleados, inventario, actividades y más.",
 
-      "project3_1": "Scraper con Python",
-      "project3_2": "Scraper Web de Precision LMS",
-      "project3_3": "Scraper Web desarrollado con Python como solución para automatizar la descarga masiva (legalmente) de contenido en una Aplicación Web (LMS) hecha con Angular a través de logins y contenido dinámico.",
+      "project3_1": "Web Scraper",
+      "project3_2": "Precision - Aplicación Web LMS",
+      "project3_3": "Scraper Web que automatiza la descarga masiva de contenido en una aplicación a través de inicios de sesión y contenido dinámico.",
 
-      "project4_1": "Página Web con Wordpress",
-      "project4_2": "Web Bilingüe para Jesuiz Design",
-      "project4_3": "La Web de mi negocio, Jesuiz Design, desarrollada con Wordpress. Está muy optimizada, por lo que sobrepasa los 95 en cada métrica, además que está en Inglés y Español.",
+      "project4_1": "Sitio web",
+      "project4_2": "Jesuiz Design - Freelancer",
+      "project4_3": "Desarrollé este sitio web con Wordpress para ofrecer servicios de freelancer. Está bien optimizado, disponible en inglés y español.",
 
-      "project5_1": "Ecommerce con Wordpress",
-      "project5_2": "Ecommerce para Maestro Supply Line",
-      "project5_3": "Tienda online en Inglés, realizada con funciones que permiten reflejar costos y disponibilidad de envío condicionales según la ubicación del cliente, considerando peso y volumen.",
+      "project5_1": "Ecommerce",
+      "project5_2": "Maestro Supply Line - Productos de Calzado",
+      "project5_3": "Esta Tienda refleja costos de envío condicionales y disponibilidad según variables del producto y ubicación del usuario.",
 
-      "project6_1": "Proyecto de Branding",
-      "project6_2": "Branding para Pináculo Education",
-      "project6_3": "Desarrollo de Identidad Visual para Pináculo Education. Empresa que lidera la revolución del aprendizaje experiencial con la integración de tecnología educativa.",
+      "project6_1": "Sitio web",
+      "project6_2": "Coiintawa - Inmobiliaria",
+      "project6_3": "Página estándar que cumple con informar los detalles de la empresa y sus proyectos inmobiliarios, además se conecta al CRM.",
 
-      "project7_1": "Proyecto de Branding",
-      "project7_2": "Branding para El Valle Dorado",
-      "project7_3": "Desarrollo de Identidad Visual para El Valle Dorado. Negocio campestre ubicado en Perú, su identidad busca representar la frescura de la comida hecha en casa y la tranquilidad campestre.",
+      "project7_1": "Sitio web",
+      "project7_2": "Quiro Axis - Quiropráctico",
+      "project7_3": "Este sitio fue desarrollado para un Quiropráctico Profesional ubicado en Puerto Rico (proyecto ejecutado por encargo de una agencia).",
+
+      "project8_1": "Ecommerce",
+      "project8_2": "Shine Perú - Joyería Artesanal",
+      "project8_3": "Ecommerce desarrollado para una joven emprendedora peruana que vende piezas de joyería hechas a mano y velas artesanales.",
+
+      "project9_1": "Sitio web",
+      "project9_2": "RV Builders - Construcción",
+      "project9_3": "Constructora de Puerto Rico que ofrece soluciones para proyectos ambiciosos (proyecto ejecutado por encargo de una agencia).",
+
+      "project10_1": "Ecommerce",
+      "project10_2": "Dados Medic - Insumos Médicos",
+      "project10_3": "Empresa autorizada por DIGEMID para la importación y distribución de productos médicos, insumos hospitalarios e insumos industriales.",
+
+      "project11_1": "Branding",
+      "project11_2": "Pináculo Education - Instituto",
+      "project11_3": "Empresa que lidera la revolución del aprendizaje experiencial mediante la integración de tecnología educativa y soluciones de vanguardia.",
+
+      "project12_1": "Branding",
+      "project12_2": "El Valle Dorado - Fundo Campestre",
+      "project12_3": "Este Fundo Campestre está ubicado en Perú y su identidad representa la frescura de la comida casera y la paz del campo.",
 
       "about": "Sobre Mi",
       "about1": "Soy Desarrollador Full Stack Junior con 2 años de experiencia en PHP y Laravel, y conocimientos básicos en tecnologías frontend como JavaScript, React, Astro y NextJS. Tengo experiencia en el despliegue de aplicaciones en diversas plataformas, lo que me permite manejar proyectos de manera integral.",
@@ -78,41 +97,61 @@ const resources = {
       "name": "Jesús Ruiz",
       "description1": "Junior Full Stack Developer",
       "description2": "and Senior Graphic Designer",
-      "bio": "With over 6 years as a Graphic Designer, I specialize in <span class='text-textGreen'>Visual Identity Design</span> for brands. In the past 2 years, I have worked on developing <span class='text-textGreen'>Web Applications with PHP and Laravel.</span> I also have a solid 3 years of experience developing <span class='text-textGreen'>Websites with WordPress.</span>",
+      "bio": "With over 6 years as a Graphic Designer, I specialize in <span class='text-textPrimary'>Visual Identity Design</span> for brands. In the past 2 years, I have worked on developing <span class='text-textPrimary'>Web Applications with PHP and Laravel.</span> I also have a solid 3 years of experience developing <span class='text-textPrimary'>Websites with WordPress and Shopify.</span>",
       
       "view_resume": "View CV",
       "download_cv": "Download CV",
 
       "projects": "Projects",
 
-      "project1_1": "CRM with Laravel",
-      "project1_2": "Web App for Coiintawa",
-      "project1_3": "This Web Application is a steroid-infused CRM for a Peruvian Real Estate Company. I developed features to facilitate Lot Management and Automatic Instalment Collection.",
+      "project1_1": "Web App CRM",
+      "project1_2": "Coiintawa - Real State",
+      "project1_3": "This Web Application is a steroid-infused CRM for a Peruvian Real Estate Company. I developed features for Automate Instalment Collection.",
 
-      "project2_1": "SaaS with Laravel & Filament",
+      "project2_1": "Web App SaaS",
       "project2_1_2": "(Developing)",
-      "project2_2": "Web App for Condoforce",
-      "project2_3": "Administrative app with all essential features for professional management of condominiums, employees, inventory, activities, reports, and more.",
+      "project2_2": "Condoforce - Condominiums",
+      "project2_3": "Administrative app with all essential features for management of condominiums, employees, inventory, activities, reports, and more.",
 
-      "project3_1": "Scraper with Python",
-      "project3_2": "Web Scraper of Precision LMS",
-      "project3_3": "Web Scraper developed with Python as a solution to automate the massive download (legally) of content in a Web Application (LMS) made with Angular through logins and dynamic content.",
+      "project3_1": "Web Scraper",
+      "project3_2": "Precision Web App LMS",
+      "project3_3": "Web Scraper developed with Python to automate the massive download of content in a Web Application through logins and dynamic content.",
 
-      "project4_1": "Website with Wordpress",
-      "project4_2": "Bilingual Website for Jesuiz Design",
-      "project4_3": "The website of my business, Jesuiz Design, developed with Wordpress. It's highly optimized, scoring over 95 in every metric, and it's available in both English and Spanish.",
+      "project4_1": "Website",
+      "project4_2": "Jesuiz Design - Freelancer",
+      "project4_3": "I developed this website with Wordpress to offer freelancer services. Made it highly optimized and is available in English and Spanish.",
 
-      "project5_1": "Ecommerce with Wordpress",
-      "project5_2": "Ecommerce for Maestro Supply Line",
-      "project5_3": "Online store in English, made with functions that allow you to reflect conditional shipping costs and availability according to the customer's location, considering weight and volume.",
+      "project5_1": "Ecommerce",
+      "project5_2": "Maestro Supply Line - Shoe Products",
+      "project5_3": "This Ecommerce have functions that reflect conditional shipping costs and availability according to product variables and user location.",
+      
+      "project6_1": "Website",
+      "project6_2": "Coiintawa - Real State",
+      "project6_3": "It is a standard website that complies with inform the details of the company and its real estate projects, also connects to the CRM.",
 
-      "project6_1": "Branding Project",
-      "project6_2": "Branding for Pináculo Education",
-      "project6_3": "Visual Identity Development for Pináculo Education. Company leading the experiential learning revolution with the integration of educational technology.",
+      "project7_1": "Website",
+      "project7_2": "Quiro Axis - Chiropractor",
+      "project7_3": "This site was developed for a Professional Chiropractor located in Puerto Rico (This project was executed on behalf of a agency).",
 
-      "project7_1": "Branding Project",
-      "project7_2": "Branding for El Valle Dorado",
-      "project7_3": "Visual Identity Development for El Valle Dorado. Country business located in Peru, its identity seeks to represent the freshness of homemade food and country tranquility.",
+      "project8_1": "Ecommerce",
+      "project8_2": "Shine Perú - Handmade Jewerly",
+      "project8_3": "Ecommerce developed for a Peruvian entrepreneur girl who sells handmade jewelry pieces and artisanal candles.",
+      
+      "project9_1": "Website",
+      "project9_2": "RV Builders - Construction",
+      "project9_3": "Puerto Rican construction company that offers solutions for ambitious projects (This project was executed on behalf of a agency).",
+
+      "project10_1": "Ecommerce",
+      "project10_2": "Dados Medic - Medical Supplies",
+      "project10_3": "Company authorized by DIGEMID for the import and distribution of medical products, hospital supplies, disposables and industrial supplies.",
+
+      "project11_1": "Branding",
+      "project11_2": "Pináculo Education - Institute",
+      "project11_3": "Company leading the experiential learning revolution by integrating educational technology and cutting-edge solutions.",
+
+      "project12_1": "Branding",
+      "project12_2": "El Valle Dorado - Rustic Estate",
+      "project12_3": "This Rustic Estate business is located in Peru and his identity represent the freshness of homemade food and country peace.",
 
 
       "about": "About Me",

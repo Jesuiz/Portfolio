@@ -62,7 +62,7 @@ const Experience = () => {
             onClick={handleReactbd}
             className={`${
               workReactbd
-                ? "border-l-textGreen text-textGreen"
+                ? "border-l-textPrimary text-textPrimary"
                 : "border-l-hoverColor text-textGray"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
@@ -72,7 +72,7 @@ const Experience = () => {
             onClick={handleGoogle}
             className={`${
               workGoogle
-                ? "border-l-textGreen text-textGreen"
+                ? "border-l-textPrimary text-textPrimary"
                 : "border-l-hoverColor text-textGray"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
@@ -82,7 +82,7 @@ const Experience = () => {
             onClick={handleApple}
             className={`${
               workApple
-                ? "border-l-textGreen text-textGreen"
+                ? "border-l-textPrimary text-textPrimary"
                 : "border-l-hoverColor text-textGray"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
@@ -92,7 +92,7 @@ const Experience = () => {
             onClick={handleSplash}
             className={`${
               workSplash
-                ? "border-l-textGreen text-textGreen"
+                ? "border-l-textPrimary text-textPrimary"
                 : "border-l-hoverColor text-textGray"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
@@ -102,7 +102,7 @@ const Experience = () => {
             onClick={handleAmazon}
             className={`${
               workAmazon
-                ? "border-l-textGreen text-textGreen"
+                ? "border-l-textPrimary text-textPrimary"
                 : "border-l-hoverColor text-textGray"
             } border-l-2 bg-transparent hover:bg-[#112240] py-3 text-sm  cursor-pointer duration-300 px-8 font-medium`}
           >
