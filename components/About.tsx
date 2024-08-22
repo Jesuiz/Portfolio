@@ -15,10 +15,9 @@ const About = () => {
       <SectionTitle title={t('about')} titleNo="02" />
       
       <div className="w-full flex flex-col items-center justify-center gap-28">
-      <div className="text-balance text-center w-full text-base text-textGray flex flex-col gap-4 font-semilight">
+      <div className=" text-center w-full text-base text-textGray flex flex-col gap-4 font-semilight">
           <p>{t('about1')}</p>
-          <p>{t('about2')}</p>
-          <p>{t('about3')}</p>
+          <p>{t('about2')} {t('about3')}</p>
           
           <ul className="w-full text-center text-sm font-titleFont grid grid-cols-3 gap-1 mt-6">
             
