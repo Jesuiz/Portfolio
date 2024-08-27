@@ -106,7 +106,7 @@ const Navbar = () => {
               transition={{ delay: 0.5 }}
             >
               <button onClick={() => changeLanguage('en')} style={{ width: 32, height: 32 }}>
-                <Image src="/assets/images/uk-flag.webp" alt="English" width={24} height={24} />
+                <Image src="/assets/img/uk-flag.webp" alt="English" width={24} height={24} />
               </button>
             </motion.div>
             <motion.div
@@ -115,7 +115,7 @@ const Navbar = () => {
               transition={{ delay: 0.6 }}
             >
               <button onClick={() => changeLanguage('es')} style={{ width: 32, height: 32 }}>
-                <Image src="/assets/images/spain-flag.webp" alt="Spanish" width={24} height={24} />
+                <Image src="/assets/img/spain-flag.webp" alt="Spanish" width={24} height={24} />
               </button>
             </motion.div>
           </div>
@@ -158,7 +158,7 @@ const Navbar = () => {
                   transition={{ duration: 0.2, delay: 0.1, ease: "easeIn" }}
                 >
                   <button onClick={() => changeLanguage('en')} style={{ width: 32, height: 32 }}>
-                    <Image src="/assets/uk-flag.png" alt="English" width={24} height={24} />
+                    <Image src="/assets/img/uk-flag.webp" alt="English" width={24} height={24} />
                   </button>
                 </motion.div>
                 <motion.div
@@ -167,7 +167,7 @@ const Navbar = () => {
                   transition={{ duration: 0.2, delay: 0.2, ease: "easeIn" }}
                 >
                   <button onClick={() => changeLanguage('es')} style={{ width: 32, height: 32 }}>
-                    <Image src="/assets/spain-flag.png" alt="Spanish" width={24} height={24} />
+                    <Image src="/assets/img/spain-flag.webp" alt="Spanish" width={24} height={24} />
                   </button>
                 </motion.div>
               </div>
