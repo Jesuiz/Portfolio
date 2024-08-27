@@ -9,7 +9,7 @@ const Contact = () => {
       id="contact"
       className="max-w-contentContainer flex flex-col gap-10 py-20 mx-auto mdl:px-10 xl:px-4 items-center"
     >
-      <SectionTitle title={t('contact')} titleNo="03" />
+      <SectionTitle title={t('contact')} titleNo="04" />
 
       <div className="w-full flex flex-col items-center justify-center gap-28">
         <div className="text-balance text-center w-full text-base text-textGray flex flex-col font-semilight gap-2">

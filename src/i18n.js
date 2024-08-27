@@ -15,7 +15,7 @@ const resources = {
       "name": "Jesús Ruiz",
       "description1": "Desarrollador Full Stack Junior",
       "description2": "y Diseñador Gráfico Senior",
-      "bio": "Con más de 6 años como Diseñador Gráfico, me especializo en <span class='text-textPrimary'>Diseño de Identidad Visual</span> para marcas. En los últimos 2 años, he trabajado en el desarrollo de <span class='text-textPrimary'>Aplicaciones Web con PHP y Laravel.</span> También tengo una sólida experiencia de 3 años desarrollando <span class='text-textPrimary'>Páginas Web con WordPress y Shopify.</span>",
+      "bio": "Con más de 6 años como Diseñador Gráfico, me especializo en <span class='text-textPrimary'>Diseño de Identidad Visual</span> para marcas. En los últimos 2 años, he trabajado en el desarrollo de <span class='text-textPrimary'>Aplicaciones Web con PHP y Laravel.</span> También tengo una sólida experiencia de 3 años desarrollando <span class='text-textPrimary'>Páginas Web con WordPress</span>",
 
       "view_resume": "Ver CV",
       "download_cv": "Descargar CV",
@@ -32,8 +32,8 @@ const resources = {
       "project2_3": "Aplicación administrativa con todas las funciones esenciales para la gestión de condominios, empleados, inventario, actividades y más.",
 
       "project3_1": "Web Scraper",
-      "project3_2": "Precision - Aplicación Web LMS",
-      "project3_3": "Scraper Web que automatiza la descarga masiva de contenido en una aplicación a través de inicios de sesión y contenido dinámico.",
+      "project3_2": "PTC University - Web App LMS",
+      "project3_3": "Scraper Web  de plataforma educativa que automatiza el aprendizaje de software a través de cursos interactivos y contenido dinámico adaptado al usuario.",
 
       "project4_1": "Sitio web",
       "project4_2": "Jesuiz Design - Freelancer",
@@ -71,12 +71,26 @@ const resources = {
       "project12_2": "El Valle Dorado - Fundo Campestre",
       "project12_3": "Este Fundo Campestre está ubicado en Perú y su identidad representa la frescura de la comida casera y la paz del campo.",
 
+      "project13_1": "Branding",
+      "project13_2": "Ahistawa - Inmobiliaria",
+      "project13_3": "Ahistawa es un movimiento solidario fuertemente ligado a los principios de la filosofía Ayni y busca facilitar el acceso a la vivienda a la comunidad peruana.",
+
+      "project14_1": "Branding",
+      "project14_2": "Macartur - Sanguchería",
+      "project14_3": "Este proyecto se desarrolló con fines demostrativos. Se buscó mejorar el Branding de la sanguchería Macartur. No tengo relación comercial con la marca oficial.",
+
       "about": "Sobre Mi",
       "about1": "Soy Desarrollador Full Stack Junior con 2 años de experiencia en PHP y Laravel, y conocimientos básicos en tecnologías frontend como JavaScript, React, Astro y NextJS. Tengo experiencia en el despliegue de aplicaciones en diversas plataformas, lo que me permite manejar proyectos de manera integral.",
       "about2": "Además, cuento con 6 años de experiencia como Diseñador Gráfico Senior, especializado en Identidad Visual. Esta combinación de habilidades me permite contribuir en todas las fases del proyecto: desde el diseño de prototipos visuales, pasando por el desarrollo backend y frontend, hasta el despliegue y mantenimiento.",
       "about3": "Éstas son las principales tecnologías y habilidades que domino en las áreas de Diseño y Desarrollo:",
 
-      "contact": "Contáctame",
+
+      "courses": "Cursos",
+      "courses_less": "Ver Menos",
+      "courses_more": "Ver Más",
+
+
+      "contact": "Contacto",
       "contact1": "Estoy buscando nuevas oportunidades, mi bandeja de entrada siempre está abierta.",
       "contact2": "Si tienes alguna pregunta o simplemente comentarme sobre algún proyecto, ¡te responderé en breve!",
       "contact3": "Enviar Correo",
@@ -97,7 +111,7 @@ const resources = {
       "name": "Jesús Ruiz",
       "description1": "Junior Full Stack Developer",
       "description2": "and Senior Graphic Designer",
-      "bio": "With over 6 years as a Graphic Designer, I specialize in <span class='text-textPrimary'>Visual Identity Design</span> for brands. In the past 2 years, I have worked on developing <span class='text-textPrimary'>Web Applications with PHP and Laravel.</span> I also have a solid 3 years of experience developing <span class='text-textPrimary'>Websites with WordPress and Shopify.</span>",
+      "bio": "With over 6 years as a Graphic Designer, I specialize in <span class='text-textPrimary'>Visual Identity Design</span> for brands. In the past 2 years, I have worked on developing <span class='text-textPrimary'>Web Applications with PHP and Laravel.</span> I also have a solid 3 years of experience developing <span class='text-textPrimary'>Websites with WordPress</span>",
       
       "view_resume": "View CV",
       "download_cv": "Download CV",
@@ -114,8 +128,8 @@ const resources = {
       "project2_3": "Administrative app with all essential features for management of condominiums, employees, inventory, activities, reports, and more.",
 
       "project3_1": "Web Scraper",
-      "project3_2": "Precision Web App LMS",
-      "project3_3": "Web Scraper developed with Python to automate the massive download of content in a Web Application through logins and dynamic content.",
+      "project3_2": "PTC University - Web App LMS",
+      "project3_3": "Scraper Web is an educational platform that automates software learning through interactive courses and dynamic content tailored to the user.",
 
       "project4_1": "Website",
       "project4_2": "Jesuiz Design - Freelancer",
@@ -153,13 +167,27 @@ const resources = {
       "project12_2": "El Valle Dorado - Rustic Estate",
       "project12_3": "This Rustic Estate business is located in Peru and his identity represent the freshness of homemade food and country peace.",
 
+      "project13_1": "Branding",
+      "project13_2": "Ahistawa - Real State",
+      "project13_3": "Ahistawa is a solidarity movement strongly linked to the principles of Ayni philosophy and seeks to facilitate access to housing for the Peruvian community.",
+
+      "project14_1": "Branding",
+      "project14_2": "Macartur - Sandwich Shop",
+      "project14_3": "This project was designed for demonstration purposes. The goal was to improve the branding of the Macartur sandwich shop. I have no commercial relationship with the official brand.",
+
 
       "about": "About Me",
       "about1": "I am a Junior Full Stack Developer with 2 years of experience in PHP and Laravel, and basic knowledge of frontend technologies such as JavaScript, React, Astro and NextJS. I have experience in deploying applications on various platforms, which allows me to manage projects comprehensively.",
       "about2": "In addition, I have 6 years of experience as a Senior Graphic Designer, specialized in Visual Identity. This combination of skills allows me to contribute in all phases of the project: from the design of visual prototypes, through backend and frontend development, to deployment and maintenance.",
       "about3": "These are the main technologies and skills that I master in the areas of Design and Development:",
 
-      "contact": "Contact Me",
+
+      "courses": "Courses",
+      "courses_less": "View Less",
+      "courses_more": "View More",
+
+
+      "contact": "Contact",
       "contact1": "I'm looking for new opportunities, my inbox is always open.",
       "contact2": "If you have any questions or just tell me about a project, I will respond shortly!",
       "contact3": "Send Mail",

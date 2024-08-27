@@ -4,29 +4,44 @@ import { RxOpenInNewWindow } from "react-icons/rx";
 interface Props {
   title: string;
   des: string;
+  company: string;
+  date: string;
   listItem: string[];
   link: string;
 }
 
-const ArchiveCard = ({ title, des, listItem, link }: Props) => {
+const ArchiveCard = ({ title, des, listItem, company, date, link }: Props) => {
   return (
     <a href={link} target="_blank">
-      <div className="w-full h-80 rounded-lg bg-[#112240] p-7 flex flex-col justify-center gap-6 hover:-translate-y-2 transition-transform duration-300 group">
-        <div className="flex justify-between items-center">
-          <FaRegFolder className="text-4xl text-textGreen" />
-          <RxOpenInNewWindow className="text-2xl hover:text-textGreen" />
-        </div>
+      <div className="w-full h-full rounded-lg bg-[#2f2f2f] p-5 md:p-5 lg:p-7 flex flex-col justify-between hover:-translate-y-2 transition-transform duration-300 group">
         <div>
-          <h2 className="text-xl font-titleFont font-semibold tracking-wide group-hover:text-textGreen">
-            {title}
-          </h2>
-          <p className="text-sm mt-3">{des}</p>
+{/*           <div className="flex justify-between items-center">
+            <FaRegFolder className="text-4xl text-textPrimary" />
+            <RxOpenInNewWindow className="text-2xl hover:text-textPrimary" />
+          </div> */}
+          <div className="grid grid-cols-10 justify-between items-center">
+            <div className="col-span-9 pr-2">
+              <h3 className="text-sm font-titleFont font-bold tracking-wide group-hover:text-textPrimary ">
+                {title}</h3>
+            </div>
+
+            <div className="col-span-1 justify-self-end self-start">
+              <RxOpenInNewWindow className="text-2xl group-hover:text-textPrimary" />
+            </div>
+          </div>
+          <p className="text-xs text-textGray mt-1">{company} - {date}</p>
         </div>
-        <ul className="text-xs mdl:text-sm text-textDark flex items-center gap-2 justify-between flex-wrap">
-          {listItem.map((item, i) => (
-            <li key={i}>{item}</li>
-          ))}
-        </ul>
+
+        <div>
+          <p className="text-sm md:text-xs py-3">{des}</p>
+        </div>
+{/*         <div className="items-end justify-left">
+          <ul className="text-[11px] font-titleFont tracking-wide flex flex-wrap gap-4">
+            {listItem.map((item, i) => (
+              <li key={i}>{item}</li>
+            ))}
+          </ul>
+        </div> */}
       </div>
     </a>
   );

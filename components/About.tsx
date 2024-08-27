@@ -10,7 +10,7 @@ const About = () => {
   return (
     <section 
       id="about"
-      className="max-w-contentContainer mx-auto py-10 md:py-20 flex flex-col gap-10 mdl:px-10 xl:px-4 items-center"
+      className="max-w-contentContainer mx-auto py-20 flex flex-col gap-10 mdl:px-10 xl:px-4 items-center"
     >
       <SectionTitle title={t('about')} titleNo="02" />
       

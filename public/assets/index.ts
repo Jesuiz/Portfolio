@@ -12,6 +12,8 @@ import rvBuilders from "./img/rvBuilders.webp";
 import dadosMedic from "./img/dadosMedic.webp";
 import pinaculoEducation from "./img/pinaculoEducation.webp";
 import elValleDorado from "./img/elValleDorado.webp";
+import ahistawa from "./img/ahistawa.webp";
+import macartur from "./img/macartur.webp";
 
 
-export { logo, profileImg, pinaculoEducation, maestroSupply, jesuizDesign, elValleDorado, crmCoiintawa, pythonScraper, sassCondoforce, webCoiintawa, quiroAxis, shinePeru, rvBuilders, dadosMedic };
+export { logo, profileImg, pinaculoEducation, maestroSupply, jesuizDesign, elValleDorado, crmCoiintawa, pythonScraper, sassCondoforce, webCoiintawa, quiroAxis, shinePeru, rvBuilders, dadosMedic, ahistawa, macartur };

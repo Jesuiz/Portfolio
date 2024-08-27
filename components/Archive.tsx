@@ -1,204 +1,142 @@
 import { useState } from "react";
 import ArchiveCard from "./ArchiveCard";
 import { motion } from "framer-motion";
+import SectionTitle from "./SectionTitle";
+import { useTranslation } from 'react-i18next';
 
 const Archive = () => {
   const [showMore, setShowMore] = useState(false);
+  const { t, i18n } = useTranslation();
 
   return (
-    <div className="max-w-contentContainer mx-auto px-4 py-24">
-      <div className="w-full flex flex-col items-center">
-        <h2 className="text-3xl font-titleFont font-semibold">
-          Other Noteworthy Projects
-        </h2>
-        <p className="text-sm font-titleFont text-textGreen">
-          view the archive
-        </p>
-      </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
-        <ArchiveCard
-          title="Educare Engligh Learning Academy"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.educareenglishlearningacademy.com/"
-        />
-        <ArchiveCard
-          title="Cyber Security Blog with live comments section"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://www.noormohmmad.com/"
-        />
-        <ArchiveCard
-          title="ReactBD web development company"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://reactbd.com/"
-        />
-        <ArchiveCard
-          title="Amazon Clone with login, cart-option and payment intrigation."
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://amazonclone.reactbd.com/"
-        />
-        <ArchiveCard
-          title="JSON data (example data api for test projects)"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Nextjs", "Tailwind CSS", "next-router"]}
-          link="https://jsondata.reactbd.com/"
-        />
-        <ArchiveCard
-          title="Dynamic Responsive Portfolio"
-          des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-          listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-          link="https://portfolioone.reactbd.com/"
-        />
+    <section id="courses" className="max-w-contentContainer mx-auto py-20 flex flex-col gap-10 items-center">
+      <SectionTitle title={t('courses')} titleNo="03" />
 
-        {showMore && (
-          <>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.1 }}
-            >
-              <ArchiveCard
-                title="OREBI e-commerce Shopping store"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-                link="https://orebishopping.reactbd.com/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.2 }}
-            >
-              <ArchiveCard
-                title="Noor Online Shopping Store"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "redux-toolkit"]}
-                link="https://noorshop.netlify.app/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.3 }}
-            >
-              <ArchiveCard
-                title="Personalized Blog"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Nextjs", "Tailwind CSS", "next-auth", "firebase"]}
-                link="https://my-blog-delta-eight.vercel.app/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.4 }}
-            >
-              <ArchiveCard
-                title="Shoppers Online Shopping Market"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Nextjs", "react-slick", "redux-toolkit"]}
-                link="https://shoppersyt.vercel.app/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.5 }}
-            >
-              <ArchiveCard
-                title="Single Page Personalized Portfolio"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://portfoliotwo.reactbd.com/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.6 }}
-            >
-              <ArchiveCard
-                title="Nextjs Dynamic Portfolio"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://portfoliothree.reactbd.com/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.7 }}
-            >
-              <ArchiveCard
-                title="Bazaar - A Modern Shopping app"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://bazar.reactbd.com/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.8 }}
-            >
-              <ArchiveCard
-                title="Blog101 Application"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Nextjs", "Tailwind CSS", "next-auth"]}
-                link="https://blog101.reactbd.com/"
-              />
-            </motion.div>
-            <motion.div
-              initial={{ opacity: 0 }}
-              whileInView={{ opacity: 1 }}
-              transition={{ delay: 0.9 }}
-            >
-              <ArchiveCard
-                title="Todo application"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
-                listItem={["Reactjs", "Tailwind CSS", "vercel deploy"]}
-                link="https://youtubetodo.vercel.app/"
-              />
-            </motion.div>
-          </>
-        )}
+      <div className="w-full flex flex-col items-center justify-center gap-12">
+
+        {/* START COURSES */}
+        <div className="">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+            <ArchiveCard
+              title="API REST con PHP y MYSQL"
+              des="Aprende a crear una API REST con PHP para compartir información desde la DB usando el motor de base de datos MySQL."
+              listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
+              company="Udemy"
+              date="2023"
+              link="https://www.udemy.com/certificate/UC-31d0507c-7fd7-4378-b191-451e5ba13819/"
+            />
+            <ArchiveCard
+              title="Pensamiento Lógico: Algoritmos y Diagramas"
+              des="Aprende conceptos fundamentales de la programación como el sistema binario, tablas de verdad y operadores lógicos."
+              listItem={["Pensamiento Lógico", "Diagramas de Flujo", "Algoritmos"]}
+              company="Platzi"
+              date="2023"
+              link="https://platzi.com/p/JesuizDesign/curso/3221-pensamiento-logico/diploma/detalle/"
+            />
+            <ArchiveCard
+              title="PHP con Laravel"
+              des="Aprende a desarrollar aplicaciones web a la medida de tus necesidades con todas las bondades y ventajas de Laravel."
+              listItem={["Pensamiento Lógico", "Diagramas de Flujo", "Algoritmos"]}
+              company="Platzi"
+              date="2023"
+              link="https://platzi.com/p/JesuizDesign/curso/1467-curso-php-laravel/diploma/detalle/"
+            />
+
+            {showMore && (
+              <>
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ delay: 0.1 }}
+                >
+                  <ArchiveCard
+                    title="Introducción a Frameworks de PHP"
+                    des="Descubre Los frameworks de desarrollo backend y aprende la estructura, patrones y buenas prácticas que nos otorgan."
+                    listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
+                    company="Platzi"
+                    date="2023"
+                    link="https://platzi.com/p/JesuizDesign/curso/2033-php-frameworks/diploma/detalle/"
+                  />
+                </motion.div>
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ delay: 0.2 }}
+                >
+                  <ArchiveCard
+                    title="API REST con PHP"
+                    des="Aprende a configurar tus entornos de desarrollo para implementar servicios de API RESTful incluyendo autenticación y manejo de errores."
+                    listItem={["Reactjs", "Tailwind CSS", "redux-toolkit"]}
+                    company="Platzi"
+                    date="2023"
+                    link="https://platzi.com/p/JesuizDesign/curso/1638-api-rest/diploma/detalle/"
+                  />
+                </motion.div>
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ delay: 0.3 }}
+                >
+                  <ArchiveCard
+                    title="Instalación, Fundamentos y Operadores de PHP"
+                    des="Conoce PHP, su instalación, sintaxis, tipos de datos, operadores y lo básico para empezar a programar."
+                    listItem={["Nextjs", "Tailwind CSS", "next-auth", "firebase"]}
+                    company="Platzi"
+                    date="2023"
+                    link="https://platzi.com/p/JesuizDesign/curso/2646-php/diploma/detalle/"
+                  />
+                </motion.div>
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ delay: 0.4 }}
+                >
+                  <ArchiveCard
+                    title="Computadores e Informática"
+                    des="Aprende todo lo básico de computadoras: hardware, software, puertos, sistemas operativos y más."
+                    listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
+                    company="Platzi"
+                    date="2023"
+                    link="https://platzi.com/p/JesuizDesign/curso/2793-computacion-basica/diploma/detalle/"
+                  />
+                </motion.div>
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  transition={{ delay: 0.5 }}
+                >
+                  <ArchiveCard
+                    title="EF Standard English Test"
+                    des="B2 Upper Intermediate (Score: 59/100)"
+                    listItem={["English"]}
+                    company="EF SET"
+                    date="2023"
+                    link="https://cert.efset.org/iawRk2"
+                  />
+                </motion.div>
+              </>
+            )}
+          </div>
+
+          <div className="flex flex-row items-center justify-center gap-4">
+            {showMore ? (
+              <button
+                onClick={() => setShowMore(false)}
+                className="w-32 h-12 border border-textPrimary mt-6 font-titleFont text-sm text-textPrimary tracking-wider rounded-md hover:bg-hoverColor duration-300">
+                {t('courses_less')}
+              </button>
+            ) : (
+              <button
+                onClick={() => setShowMore(true)}
+                className="w-32 h-12 border border-textPrimary mt-6 font-titleFont text-sm text-textPrimary tracking-wider rounded-md hover:bg-hoverColor duration-300">
+                {t('courses_more')}
+              </button>
+            )}
+          </div>
+        </div>
+
       </div>
-      <div className="mt-12 flex items-center justify-center">
-        {showMore ? (
-          <button
-            onClick={() => setShowMore(false)}
-            className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
-          >
-            Show Less
-          </button>
-        ) : (
-          <button
-            onClick={() => setShowMore(true)}
-            className="w-36 h-12 rounded-md text-textGreen text-[13px] border border-textGreen hover:bg-hoverColor duration-300"
-          >
-            Show More
-          </button>
-        )}
-      </div>
-    </div>
+    </section>
   );
 };
 

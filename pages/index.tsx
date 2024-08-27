@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Banner from "@/components/Banner";
+import Archive from "@/components/Archive";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import LeftSide from "@/components/LeftSide";
@@ -45,6 +46,8 @@ export default function Home() {
             </motion.div>
 
             <About />
+
+            <Archive />
 
             <Contact />
 
