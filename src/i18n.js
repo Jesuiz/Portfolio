@@ -201,7 +201,7 @@ i18n
   .use(initReactI18next)
   .init({
     resources,
-    lng: 'en', // Idioma por defecto
+    lng: 'es', // Idioma por defecto
     interpolation: {
       escapeValue: false
     }
