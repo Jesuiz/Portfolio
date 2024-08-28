@@ -143,37 +143,37 @@ const Navbar = () => {
               initial={{ x: 20, opacity: 0 }}
               animate={{ x: 0, opacity: 1 }}
               transition={{ duration: 0.1 }}
-              className="w-[80%] h-full overflow-y-scroll scrollbarHide bg-bodyColor flex flex-col items-center px-4 py-10 relative"
+              className="w-[70%] h-full overflow-y-scroll scrollbarHide bg-bodyColor flex flex-col items-center justify-between px-4 py-10 relative"
             >
               <MdOutlineClose
                 onClick={() => setShow(false)}
-                className="text-3xl text-textPrimary cursor-pointer hover:text-red-500 absolute top-4 right-4"
+                className="text-3xl text-textPrimary cursor-pointer hover:text-red-500 absolute top-6 right-6"
               />
 
               {/* Language Switcher */}
-              <div id="switch2" className="flex items-center gap-4 mb-10">
-              <motion.div
-                  initial={{ x: 20, opacity: 0 }}
-                  animate={{ x: 0, opacity: 1 }}
-                  transition={{ duration: 0.2, delay: 0.1, ease: "easeIn" }}
-                >
-                  <button onClick={() => changeLanguage('en')} style={{ width: 32, height: 32 }}>
-                    <Image src="/assets/img/uk-flag.webp" alt="English" width={24} height={24} />
-                  </button>
-                </motion.div>
-                <motion.div
-                  initial={{ x: 20, opacity: 0 }}
-                  animate={{ x: 0, opacity: 1 }}
-                  transition={{ duration: 0.2, delay: 0.2, ease: "easeIn" }}
-                >
-                  <button onClick={() => changeLanguage('es')} style={{ width: 32, height: 32 }}>
-                    <Image src="/assets/img/spain-flag.webp" alt="Spanish" width={24} height={24} />
-                  </button>
-                </motion.div>
-              </div>
+              <div id="switch2" className="flex flex-col items-center gap-6 mb-10">
+                <div className="flex gap-6">
+                  <motion.div
+                    initial={{ x: 20, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    transition={{ duration: 0.2, delay: 0.1, ease: "easeIn" }}
+                  >
+                    <button onClick={() => changeLanguage('en')} style={{ width: 32, height: 32 }}>
+                      <Image src="/assets/img/uk-flag.webp" alt="English" width={32} height={32} />
+                    </button>
+                  </motion.div>
+                  <motion.div
+                    initial={{ x: 20, opacity: 0 }}
+                    animate={{ x: 0, opacity: 1 }}
+                    transition={{ duration: 0.2, delay: 0.2, ease: "easeIn" }}
+                  >
+                    <button onClick={() => changeLanguage('es')} style={{ width: 32, height: 32 }}>
+                      <Image src="/assets/img/spain-flag.webp" alt="Spanish" width={32} height={32} />
+                    </button>
+                  </motion.div>
+                </div>
 
-              <div className="flex flex-col items-center gap-7">
-                <ul className="flex flex-col text-base gap-7 items-center w-full">
+                <ul className="flex flex-col text-base gap-6 items-center w-full">
                   <Link
                     className="flex items-center gap-1 font-medium text-textLight hover:text-textPrimary cursor-pointer duration-300 nav-link"
                     href="#home"
@@ -217,7 +217,7 @@ const Navbar = () => {
                   </Link>
                   <Link
                     className="flex items-center gap-1 font-medium text-textLight hover:text-textPrimary cursor-pointer duration-300 nav-link"
-                    href="#contact"
+                    href="#courses"
                     onClick={handleScroll}
                   >
                     <motion.li
@@ -226,40 +226,58 @@ const Navbar = () => {
                       transition={{ duration: 0.2, delay: 0.6, ease: "easeIn" }}
                     >
                       <span className="text-textPrimary">03. </span>
+                      {t('courses')}
+                    </motion.li>
+                  </Link>
+                  <Link
+                    className="flex items-center gap-1 font-medium text-textLight hover:text-textPrimary cursor-pointer duration-300 nav-link"
+                    href="#contact"
+                    onClick={handleScroll}
+                  >
+                    <motion.li
+                      initial={{ x: 20, opacity: 0 }}
+                      animate={{ x: 0, opacity: 1 }}
+                      transition={{ duration: 0.2, delay: 0.6, ease: "easeIn" }}
+                    >
+                      <span className="text-textPrimary">04. </span>
                       {t('contact')}
                     </motion.li>
                   </Link>
                 </ul>
-                
-                <a href={viewCvUrl} target="_blank" className="w-full">
-                  <motion.button
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.2, delay: 0.7, ease: "easeIn" }}
-                    className="w-full px-4 py-2 rounded-md text-white lgl:mt-5 text-[13px] border border-white hover:bg-hoverColor duration-300 mt-5"
-                  >
-                    {t('view_resume')}
-                  </motion.button>
-                </a>
-                <a href={downloadCvUrl} download className="w-full">
-                  <motion.button
-                    initial={{ opacity: 0 }}
-                    animate={{ opacity: 1 }}
-                    transition={{ duration: 0.2, delay: 0.7, ease: "easeIn" }}
-                    className="w-full px-4 py-2 rounded-md text-white lgl:mt-5 text-[13px] border border-white hover:bg-hoverColor duration-300 mb-4 lgl:mb-5"
-                  >
-                    {t('download_cv')}
-                  </motion.button>
-                </a>
 
-                <div className="flex gap-4">
+                <div className="flex flex-col gap-3">
+                  <a href={viewCvUrl} target="_blank" className="w-full">
+                    <motion.button
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ duration: 0.2, delay: 0.7, ease: "easeIn" }}
+                      className="w-full px-4 py-2 rounded-md text-white lgl:mt-5 text-[13px] border border-white hover:bg-hoverColor duration-300 mt-5"
+                    >
+                      {t('view_resume')}
+                    </motion.button>
+                  </a>
+                  <a href={downloadCvUrl} download className="w-full">
+                    <motion.button
+                      initial={{ opacity: 0 }}
+                      animate={{ opacity: 1 }}
+                      transition={{ duration: 0.2, delay: 0.7, ease: "easeIn" }}
+                      className="w-full px-4 py-2 rounded-md text-white lgl:mt-5 text-[13px] border border-white hover:bg-hoverColor duration-300 mb-4 lgl:mb-5"
+                    >
+                      {t('download_cv')}
+                    </motion.button>
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex flex-col items-center gap-6">
+                <div className="flex gap-6">
                   <motion.a
                     initial={{ y: 20, opacity: 0 }}
                     animate={{ y: 0, opacity: 1 }}
                     transition={{ duration: 0.2, delay: 0.8, ease: "easeIn" }}
                     href="https://github.com/Jesuiz" target="_blank"
                   >
-                    <span className="w-10 h-10 text-xl border-[1px] border-white text-white rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300 mt-5">
+                    <span className="w-10 h-10 text-xl bg-bodyColor border-2 border-textPrimary hover:text-textLight rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <SlSocialGithub />
                     </span>
                   </motion.a>
@@ -269,7 +287,7 @@ const Navbar = () => {
                     transition={{ duration: 0.2, delay: 0.8, ease: "easeIn" }}
                     href="https://www.linkedin.com/in/jesuiz" target="_blank"
                   >
-                    <span className="w-10 h-10 text-xl border-[1px] border-white text-white rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300 mt-5">
+                    <span className="w-10 h-10 text-xl bg-bodyColor border-2 border-textPrimary hover:text-textLight rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <SlSocialLinkedin />
                     </span>
                   </motion.a>
@@ -279,23 +297,25 @@ const Navbar = () => {
                     transition={{ duration: 0.2, delay: 0.8, ease: "easeIn" }}
                     href="https://www.behance.net/jesuiz" target="_blank"
                   >
-                    <span className="w-10 h-10 text-xl border-[1px] border-white text-white rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300 mt-5">
+                    <span className="w-10 h-10 text-xl bg-bodyColor border-2 border-textPrimary hover:text-textLight rounded-full inline-flex items-center justify-center cursor-pointer hover:-translate-y-2 transition-all duration-300">
                       <SlSocialBehance />
                     </span>
                   </motion.a>
                 </div>
+
+                <div className="">
+                  <motion.a
+                    initial={{ opacity: 0 }}
+                    animate={{ opacity: 1 }}
+                    transition={{ duration: 0.2, delay: 0.9, ease: "easeIn" }}
+                    className="text-sm w-72 tracking-widest text-textLight text-center mt-10"
+                  >
+                    <p>{t('mail-me')}</p>
+                    <p><b>jesuizmail@gmail.com</b></p>
+                  </motion.a>
+                </div>
               </div>
 
-              <motion.a
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1 }}
-                transition={{ duration: 0.2, delay: 0.9, ease: "easeIn" }}
-                className="text-sm w-72 tracking-widest text-textLight text-center mt-10"
-                href="mailto:jesuizmail@gmail.com"
-              >
-                <p>{t('mail-me')}</p>
-                <p><b>jesuizmail@gmail.com</b></p>
-              </motion.a>
             </motion.div>
           </div>
         )}

@@ -33,7 +33,7 @@ const resources = {
 
       "project3_1": "Web Scraper",
       "project3_2": "PTC University - Web App LMS",
-      "project3_3": "Scraper Web  de plataforma educativa que automatiza el aprendizaje de software a través de cursos interactivos y contenido dinámico adaptado al usuario.",
+      "project3_3": "Scraper de plataforma educativa que automatiza el aprendizaje a través de cursos interactivos y contenido dinámico adaptado al usuario.",
 
       "project4_1": "Sitio web",
       "project4_2": "Jesuiz Design - Freelancer",
