@@ -115,15 +115,6 @@ const Navbar = () => {
 
           {/* Language Switcher */}
           <div className="flex items-center gap-4 mt-1 2xl:mt-2">
-          <motion.div
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.5 }}
-            >
-              <button onClick={() => changeLanguage('en')} style={{ width: 32, height: 32 }}>
-                <Image src="/assets/img/uk-flag.webp" alt="English" width={24} height={24} />
-              </button>
-            </motion.div>
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -133,6 +124,15 @@ const Navbar = () => {
                 <Image src="/assets/img/spain-flag.webp" alt="Spanish" width={24} height={24} />
               </button>
             </motion.div>
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.5 }}
+              >
+                <button onClick={() => changeLanguage('en')} style={{ width: 32, height: 32 }}>
+                  <Image src="/assets/img/uk-flag.webp" alt="English" width={24} height={24} />
+                </button>
+              </motion.div>
           </div>
 
 
@@ -171,19 +171,19 @@ const Navbar = () => {
                   <motion.div
                     initial={{ x: 20, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.2, delay: 0.1, ease: "easeIn" }}
+                    transition={{ duration: 0.2, delay: 0.2, ease: "easeIn" }}
                   >
-                    <button onClick={() => changeLanguage('en')} style={{ width: 32, height: 32 }}>
-                      <Image src="/assets/img/uk-flag.webp" alt="English" width={32} height={32} />
+                    <button onClick={() => changeLanguage('es')} style={{ width: 32, height: 32 }}>
+                      <Image src="/assets/img/spain-flag.webp" alt="Spanish" width={32} height={32} />
                     </button>
                   </motion.div>
                   <motion.div
                     initial={{ x: 20, opacity: 0 }}
                     animate={{ x: 0, opacity: 1 }}
-                    transition={{ duration: 0.2, delay: 0.2, ease: "easeIn" }}
+                    transition={{ duration: 0.2, delay: 0.1, ease: "easeIn" }}
                   >
-                    <button onClick={() => changeLanguage('es')} style={{ width: 32, height: 32 }}>
-                      <Image src="/assets/img/spain-flag.webp" alt="Spanish" width={32} height={32} />
+                    <button onClick={() => changeLanguage('en')} style={{ width: 32, height: 32 }}>
+                      <Image src="/assets/img/uk-flag.webp" alt="English" width={32} height={32} />
                     </button>
                   </motion.div>
                 </div>
@@ -266,7 +266,7 @@ const Navbar = () => {
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       transition={{ duration: 0.2, delay: 0.7, ease: "easeIn" }}
-                      className="w-full px-4 py-2 rounded-md text-white lgl:mt-5 text-[13px] border border-white hover:bg-hoverColor duration-300 mt-5"
+                      className="w-full px-4 py-2 rounded-md text-textPrimary lgl:mt-5 text-[13px] border border-textPrimary hover:bg-hoverColor duration-300 mt-5"
                     >
                       {t('view_resume')}
                     </motion.button>
@@ -276,7 +276,7 @@ const Navbar = () => {
                       initial={{ opacity: 0 }}
                       animate={{ opacity: 1 }}
                       transition={{ duration: 0.2, delay: 0.7, ease: "easeIn" }}
-                      className="w-full px-4 py-2 rounded-md text-white lgl:mt-5 text-[13px] border border-white hover:bg-hoverColor duration-300 mb-4 lgl:mb-5"
+                      className="w-full px-4 py-2 rounded-md text-textPrimary lgl:mt-5 text-[13px] border border-textPrimary hover:bg-hoverColor duration-300 mb-4 lgl:mb-5"
                     >
                       {t('download_cv')}
                     </motion.button>

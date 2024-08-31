@@ -40,7 +40,7 @@ const Banner = () => {
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.8 }}
-          className="text-pretty text-sm xl:text-base text-textGray font-semilight text-pretty text-center md:text-left
+          className="text-pretty text-sm xl:text-base text-textGray font-semilight text-center md:text-left
           max-w md:max-w-[80%] xl:max-w-[85%] py-6"
           dangerouslySetInnerHTML={{ __html: t('bio') }}
         />
@@ -55,14 +55,14 @@ const Banner = () => {
               transition={{ duration: 0.5, delay: 0.8 }}
             >
               <Image
-                className="w-full w-[220px] md:w-[260px] rounded-md"
+                className="w-full md:w-[260px] rounded-md"
                 src={profileImg}
                 alt="Jesús Ruiz Portfolio"
               />
             </motion.h3>
           </div>
 
-          <div className="w-full w-[220px] md:w-[260px] flex flex-row items-center justify-center mt-4 gap-2 z-20">
+          <div className="w-full md:w-[260px] flex flex-row items-center justify-center mt-4 gap-2 z-20">
             <div className="w-1/2 flex flex-col items-center">
               <a href={viewCvUrl} target="_blank">
                 <motion.button

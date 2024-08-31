@@ -43,7 +43,7 @@ module.exports = {
         textGray: "#bdbdbd",
         textDark: "#8892b0",
         
-        hoverColor: "#06b6d4",
+        hoverColor: "rgb(6, 182, 212,0.1)",
         hoverColor2: "#7154EF",
       },
       fontFamily: {
