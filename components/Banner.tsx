@@ -8,7 +8,7 @@ const Banner = () => {
   const { t, i18n } = useTranslation();
 
   const viewCvUrl = i18n.language === 'en' ? "https://jesus-cv.vercel.app/index-en" : "https://jesus-cv.vercel.app";
-  const downloadCvUrl = i18n.language === 'en' ? "/assets/jesus_ruiz_cv_en.pdf" : "/assets/jesus_ruiz_cv_es.pdf";
+  const downloadCvUrl = i18n.language === 'en' ? "/assets/cv_en_full.pdf" : "/assets/cv_es_full.pdf";
     
   return (
     <section id="home" className="max-w-contentContainer mx-auto py-6 md:py-20 xl:py-10 flex flex-col gap-4 lgl:gap-8 md:flex-row lg:items-center">
