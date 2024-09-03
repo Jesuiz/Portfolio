@@ -34,7 +34,7 @@ export default function Home() {
             <LeftSide />
           </motion.div>
 
-          <div className=" h-[88vh] w-[95%] sm:w-[95%] md:w-[90%] lgl:w-[80%] mx-auto p-5 xl:pl-10">
+          <div className=" h-[88vh] w-[95%] mx-auto p-5 xl:pl-10">
             
             <Banner />
 

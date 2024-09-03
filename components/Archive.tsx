@@ -17,103 +17,152 @@ const Archive = () => {
         {/* START COURSES */}
         <div className="">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-6">
+            
             <ArchiveCard
-              title="API REST con PHP y MYSQL"
-              des="Aprende a crear una API REST con PHP para compartir información desde la DB usando el motor de base de datos MySQL."
-              listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-              company="Udemy"
-              date="2023"
-              link="https://www.udemy.com/certificate/UC-31d0507c-7fd7-4378-b191-451e5ba13819/"
-            />
-            <ArchiveCard
-              title="Pensamiento Lógico: Algoritmos y Diagramas"
-              des="Aprende conceptos fundamentales de la programación como el sistema binario, tablas de verdad y operadores lógicos."
-              listItem={["Pensamiento Lógico", "Diagramas de Flujo", "Algoritmos"]}
+              title="Definitivo de HTML y CSS"
+              des="Aprende HTML y CSS desde cero, sin conocimientos previos."
               company="Platzi"
-              date="2023"
-              link="https://platzi.com/p/JesuizDesign/curso/3221-pensamiento-logico/diploma/detalle/"
+              hours="Contenido: 7 Horas - Práctica: 16 Horas"
+              date="2024"
+              link="https://platzi.com/p/JesuizDesign/curso/2008-html-css/diploma/detalle/"
             />
+
             <ArchiveCard
-              title="PHP con Laravel"
-              des="Aprende a desarrollar aplicaciones web a la medida de tus necesidades con todas las bondades y ventajas de Laravel."
-              listItem={["Pensamiento Lógico", "Diagramas de Flujo", "Algoritmos"]}
+              title="Práctico de HTML y CSS"
+              des="Pon en práctica todo lo que sabes de HTML y CSS."
               company="Platzi"
-              date="2023"
-              link="https://platzi.com/p/JesuizDesign/curso/1467-curso-php-laravel/diploma/detalle/"
+              hours="Contenido: 2 Horas - Práctica: 14 Horas"
+              date="2024"
+              link="https://platzi.com/p/JesuizDesign/curso/1758-html-practico/diploma/detalle/"
+            />
+
+            <ArchiveCard
+              title="Básico de Tailwind 2 y 3"
+              des="Aprenderás Tailwind CSS para agilizar el desarrollo de tus proyectos."
+              company="Platzi"
+              hours="Contenido: 4 Horas - Práctica: 16 Horas"
+              date="2024"
+              link="https://platzi.com/p/JesuizDesign/curso/2702-tailwind/diploma/detalle/"
+            />
+
+            <ArchiveCard
+              title="Optimización Web"
+              des="Técnicas y herramientas para mejorar el perfomance de tus aplicaciones web."
+              company="Platzi"
+              hours="Contenido: 7 Horas - Práctica: 20 Horas"
+              date="2024"
+              link="https://platzi.com/p/JesuizDesign/curso/1973-web-performance/diploma/detalle/"
+            />
+
+            <ArchiveCard
+              title="Profesional de Git y Github"
+              des="Aprende a trabajar con Git para gestionar tus proyectos en local y Github."
+              company="Platzi"
+              hours="Contenido: 6 Horas - Práctica: 16 Horas"
+              date="2024"
+              link="https://platzi.com/p/JesuizDesign/curso/1557-git-github/diploma/detalle/"
+            />
+          
+            <ArchiveCard
+              title="Entornos de Desarrollo y Deployment en Wordpress"
+              des="Entornos y despliegues con Wordpress."
+              company="Platzi"
+              hours="Contenido: 2 Horas - Práctica: 8 Horas"
+              date="2024"
+              link="https://platzi.com/p/JesuizDesign/curso/2602-course/diploma/detalle/"
             />
 
             {showMore && (
               <>
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ delay: 0.1 }}
-                >
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }}>
                   <ArchiveCard
-                    title="Introducción a Frameworks de PHP"
-                    des="Descubre Los frameworks de desarrollo backend y aprende la estructura, patrones y buenas prácticas que nos otorgan."
-                    listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
+                    title="Profesional de Wordpress"
+                    des="Profundiza Wordpress y su uso desde una visión mas amplia como framework."
                     company="Platzi"
-                    date="2023"
-                    link="https://platzi.com/p/JesuizDesign/curso/2033-php-frameworks/diploma/detalle/"
-                  />
-                </motion.div>
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ delay: 0.2 }}
-                >
-                  <ArchiveCard
-                    title="API REST con PHP"
-                    des="Aprende a configurar tus entornos de desarrollo para implementar servicios de API RESTful incluyendo autenticación y manejo de errores."
-                    listItem={["Reactjs", "Tailwind CSS", "redux-toolkit"]}
-                    company="Platzi"
-                    date="2023"
-                    link="https://platzi.com/p/JesuizDesign/curso/1638-api-rest/diploma/detalle/"
-                  />
-                </motion.div>
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ delay: 0.3 }}
-                >
-                  <ArchiveCard
-                    title="Instalación, Fundamentos y Operadores de PHP"
-                    des="Conoce PHP, su instalación, sintaxis, tipos de datos, operadores y lo básico para empezar a programar."
-                    listItem={["Nextjs", "Tailwind CSS", "next-auth", "firebase"]}
-                    company="Platzi"
-                    date="2023"
-                    link="https://platzi.com/p/JesuizDesign/curso/2646-php/diploma/detalle/"
-                  />
-                </motion.div>
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ delay: 0.4 }}
-                >
-                  <ArchiveCard
-                    title="Computadores e Informática"
-                    des="Aprende todo lo básico de computadoras: hardware, software, puertos, sistemas operativos y más."
-                    listItem={["Reactjs", "Tailwind CSS", "getform.io"]}
-                    company="Platzi"
-                    date="2023"
-                    link="https://platzi.com/p/JesuizDesign/curso/2793-computacion-basica/diploma/detalle/"
-                  />
-                </motion.div>
-                <motion.div
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  transition={{ delay: 0.5 }}
-                >
+                    hours="Contenido: 4 Horas - Práctica: 14 Horas"
+                    date="2024"
+                    link="https://platzi.com/p/JesuizDesign/curso/1779-wordpress-profesional/diploma/detalle/"
+                  /></motion.div>
+
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }}>
                   <ArchiveCard
                     title="EF Standard English Test"
-                    des="B2 Upper Intermediate (Score: 59/100)"
-                    listItem={["English"]}
+                    des="El nivel alcanzado es 59/100, lo que corresponde a B2 Upper Intermediate."
                     company="EF SET"
+                    hours=""
                     date="2023"
                     link="https://cert.efset.org/iawRk2"
-                  />
-                </motion.div>
+                  /></motion.div>
+
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.2 }}>
+                  <ArchiveCard
+                    title="API REST con PHP y MYSQL"
+                    des="Crea una API Rest con PHP y MySQL."
+                    company="Udemy"
+                    hours="Contenido: 1.5 Horas - Práctica: 6 Horas"
+                    date="2023"
+                    link="https://www.udemy.com/certificate/UC-31d0507c-7fd7-4378-b191-451e5ba13819/"
+                  /></motion.div>
+
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.3 }}>
+                  <ArchiveCard
+                    title="Pensamiento Lógico: Algoritmos y Diagramas"
+                    des="Conceptos fundamentales: sistema binario, diagramas de flujo y más."
+                    company="Platzi"
+                    hours="Contenido: 2 Horas - Práctica: 10 Horas"
+                    date="2023"
+                    link="https://platzi.com/p/JesuizDesign/curso/3221-pensamiento-logico/diploma/detalle/"
+                  /></motion.div>
+
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.3 }}>
+                  <ArchiveCard
+                    title="PHP con Laravel"
+                    des="Desarrolla aplicaciones web a la medida con PHP y el framework para los artesanos de la web: Laravel."
+                    company="Platzi"
+                    hours="Contenido: 3 Horas - Práctica: 16 Horas"
+                    date="2023"
+                    link="https://platzi.com/p/JesuizDesign/curso/1467-curso-php-laravel/diploma/detalle/"
+                  /></motion.div>
+
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.3 }}>
+                  <ArchiveCard
+                    title="Introducción a Frameworks de PHP"
+                    des="Estructura, patrones y buenas prácticas de frameworks de desarrollo backend."
+                    company="Platzi"
+                    hours="Contenido: 1 Horas - Práctica: 2 Horas"
+                    date="2023"
+                    link="https://platzi.com/p/JesuizDesign/curso/2033-php-frameworks/diploma/detalle/"
+                  /></motion.div>
+
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.4 }}>
+                  <ArchiveCard
+                    title="API REST con PHP"
+                    des="Aprende a configurar e implementar servicios REST, incluyendo autenticación y manejo de errores."
+                    company="Platzi"
+                    hours="Contenido: 2 Horas - Práctica: 16 Horas"
+                    date="2023"
+                    link="https://platzi.com/p/JesuizDesign/curso/1638-api-rest/diploma/detalle/"
+                  /></motion.div>
+
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.4 }}>
+                  <ArchiveCard
+                    title="Instalación, Fundamentos y Operadores de PHP"
+                    des="Aprende PHP, el lenguaje para backend presente en el 80% de sitios web."
+                    company="Platzi"
+                    hours="Contenido: 4 Horas - Práctica: 14 Horas"
+                    date="2023"
+                    link="https://platzi.com/p/JesuizDesign/curso/2646-php/diploma/detalle/"
+                  /></motion.div>
+
+                <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ delay: 0.4 }}>
+                  <ArchiveCard
+                    title="Computadores e Informática"
+                    des="Aprende lo esencial de tu computadora: sistemas, archivos, programas, y más."
+                    company="Platzi"
+                    hours="Contenido: 4 Horas - Práctica: 10 Horas"
+                    date="2023"
+                    link="https://platzi.com/p/JesuizDesign/curso/2793-computacion-basica/diploma/detalle/"
+                  /></motion.div>
               </>
             )}
           </div>

@@ -25,7 +25,8 @@ module.exports = {
         xl: "1280px",
       },
       colors: {
-        textPrimary: "#06b6d4",
+        textPrimary: "#04d7ab",
+        hoverColor: "rgb(64, 215, 171, 0.1)",
 
         bodyColor: "#1b1b1a",
         textAmber: "#f59e0b",
@@ -42,9 +43,8 @@ module.exports = {
         textLight: "#ffff",
         textGray: "#bdbdbd",
         textDark: "#8892b0",
-        
-        hoverColor: "rgb(6, 182, 212,0.1)",
-        hoverColor2: "#7154EF",
+
+        hoverColor2: "#04d7ab",
       },
       fontFamily: {
         bodyFont: ["Poppins", "sans-serif"],
