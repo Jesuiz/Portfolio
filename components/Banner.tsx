@@ -6,13 +6,15 @@ import { useTranslation } from 'react-i18next';
 
 const Banner = () => {
   const { t, i18n } = useTranslation();
+  const background = "bg-[url('/assets/img/background_lines.png')]";
 
   const viewCvUrl = i18n.language === 'en' ? "https://jesus-cv.vercel.app/index-en" : "https://jesus-cv.vercel.app";
   const downloadCvUrl = i18n.language === 'en' ? "/assets/cv_en_full.pdf" : "/assets/cv_es_full.pdf";
     
   return (
-    <section id="home" className="max-w-contentContainer mx-auto py-6 md:py-20 xl:py-10 flex flex-col gap-4 lgl:gap-8 md:flex-row lg:items-center">
-      <div className="w-full md:w-2/3 flex flex-col items-center md:items-start md:text-left">
+    <section id="home" className="max-w-contentContainer mx-auto py-6 md:py-20 xl:py-10 flex flex-col gap-4 lgl:gap-8 md:flex-row lg:items-center z-99">
+      
+      <div className="w-full md:w-2/3 flex flex-col items-center md:items-start md:text-left z-10">
         <motion.h3
           initial={{ y: 10, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
@@ -46,7 +48,7 @@ const Banner = () => {
         />
       </div>
 
-      <div className="w-full md:w-1/3 flex flex-col items-center md:items-end">
+      <div className="w-full md:w-1/3 flex flex-col items-center md:items-end z-10">
         <div className="">
           <div className="">
             <motion.h3
@@ -88,11 +90,12 @@ const Banner = () => {
               </a>
             </div>
           </div>
-
-
-
         </div>
       </div>
+
+      <div className={`absolute w-[120%] h-80 bottom-80 sm:bottom-80 md:bottom-32 lg:bottom-12 xl:bottom-8
+                  opacity-20 bg-center bg-no-repeat left-1/2 -translate-x-1/2 z-1 ${background}`}/>
+                  
     </section >
   );
 };

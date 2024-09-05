@@ -44,8 +44,6 @@ export default function Home() {
               animate={{ opacity: 1 }}
               transition={{ delay: 1.5 }}>
               <div className="relative overflow-x-visible">
-                <div className={`absolute w-[120%] h-80 bottom-80 sm:bottom-80 md:bottom-32 lg:bottom-12 xl:bottom-8
-                  opacity-20 bg-center bg-no-repeat left-1/2 -translate-x-1/2 ${background}`}/>
                 <Banner />
               </div>
             </motion.div>
