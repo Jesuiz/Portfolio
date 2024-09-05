@@ -162,7 +162,7 @@ const Navbar = () => {
             >
               <MdOutlineClose
                 onClick={() => setShow(false)}
-                className="text-3xl text-textPrimary cursor-pointer hover:text-red-500 absolute top-6 right-6"
+                className="text-3xl text-textPrimary cursor-pointer hover:text-textPrimary absolute top-6 right-6"
               />
 
               {/* Language Switcher */}

@@ -20,7 +20,7 @@ export default function Home() {
     <>
       <Head>
         <title>Jesús Ruiz Portfolio</title>
-        <meta name="description" content="Im Jesús, and this is my portfolio" />
+        <meta name="description" content="Im Jesús Ruiz, and this is my portfolio" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo.ico" />
       </Head>
@@ -31,7 +31,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 1.5 }}
+            transition={{ delay: 0.5 }}
             className="hidden xl:inline-flex w-32 h-full fixed left-0 bottom-0"
           >
             <LeftSide />
@@ -42,7 +42,7 @@ export default function Home() {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.5 }}>
+              transition={{ delay: 0.5 }}>
               <div className="relative overflow-x-visible">
                 <Banner />
               </div>
@@ -51,7 +51,7 @@ export default function Home() {
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 1.5 }}>
+              transition={{ delay: 0.5 }}>
               <Projects />
             </motion.div>
 
@@ -71,7 +71,7 @@ export default function Home() {
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 1.5 }}
+            transition={{ delay: 0.5 }}
             className="hidden xl:inline-flex w-32 h-full fixed right-0 bottom-0">
             <RightSide />
           </motion.div>
