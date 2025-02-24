@@ -8,7 +8,7 @@ const Banner = () => {
   const { t, i18n } = useTranslation();
   const background = "bg-[url('/assets/img/background_lines.png')]";
 
-  const viewCvUrl = i18n.language === 'en' ? "https://jesus-cv.vercel.app/index-en" : "https://jesus-cv.vercel.app";
+  const viewCvUrl = i18n.language === 'en' ? "https://curriculum.jesuizdesign.com/index-en" : "https://curriculum.jesuizdesign.com/";
   const downloadCvUrl = i18n.language === 'en' ? "/assets/cv_en_full.pdf" : "/assets/cv_es_full.pdf";
     
   return (
@@ -94,7 +94,7 @@ const Banner = () => {
       </div>
 
       <div className={`absolute w-[120%] h-80 bottom-80 sm:bottom-80 md:bottom-32 lg:bottom-12 xl:bottom-8
-                  opacity-20 bg-center bg-no-repeat left-1/2 -translate-x-1/2 z-1 ${background}`}/>
+                  opacity-20 bg-center bg-no-repeat left-1/2 -translate-x-1/2 z-1 hue-rotate-[4.300rad] ${background}`}/>
                   
     </section >
   );

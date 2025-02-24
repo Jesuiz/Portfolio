@@ -13,9 +13,10 @@ const resources = {
 
       "hello": "Hola, soy",
       "name": "Jesús Ruiz",
-      "description1": "Desarrollador Full Stack Junior",
-      "description2": "y Diseñador Gráfico Senior",
-      "bio": "Con más de 6 años como Diseñador Gráfico, me especializo en <span class='text-textPrimary'>Diseño de Identidad Visual</span> para marcas. En los últimos 2 años, he trabajado en el desarrollo de <span class='text-textPrimary'>Aplicaciones Web con PHP y Laravel.</span> También tengo una sólida experiencia de 3 años desarrollando <span class='text-textPrimary'>Páginas Web con WordPress</span>",
+      "description1": "Desarrollador Frontend Junior",
+      "description2": "con 2 años de experiencia",
+      "bio": "También soy diseñador gráfico, esto me facilita crear interfaces atractivas y funcionales utilizando <span class='text-textPrimary'>React, Next.js, CSS, Tailwind.</span> Complemento estas habilidades con conocimientos básicos de backend en <span class='text-textPrimary'>PHP, Laravel, MVC y APIs.</span> Adicionalmente, tengo <span class='text-textPrimary'>4 años de experiencia trabajando con WordPress.</span>",
+
 
       "view_resume": "Ver CV",
       "download_cv": "Descargar CV",
@@ -94,8 +95,8 @@ const resources = {
       "project14_3": "Desarrollado con fines demostrativos. Se buscó mejorar el Branding de la sanguchería Macartur. No tengo relación comercial con la marca.",
 
       "about": "Sobre Mi",
-      "about1": "Tengo 2 años de experiencia como Desarrollador Full Stack Junior, construyendo aplicaciones web con PHP y Laravel, y con dominio del stack TALL (Tailwind, AlpineJS, Laravel, Livewire). Me especializo en desarrollar soluciones completas y escalables que combinan un backend robusto con interfaces de usuario dinámicas y reactivas. También tengo 3 años de experiencia realizando proyectos con WordPress, lo que me permite ofrecer soluciones tanto para sitios web sencillos como para aplicaciones complejas y a la medida.",
-      "about2": "Como Diseñador Gráfico Senior, con más de 6 años de trayectoria, empleo Figma para la creación y prototipado de interfaces, asegurando que cada diseño sea visualmente coherente y fácil de usar. Mi enfoque en el diseño de Identidad Visual y Branding garantiza que las soluciones gráficas que desarrollo se alineen perfectamente con las necesidades del cliente, ofreciendo una experiencia visual integrada desde el concepto hasta la implementación.",
+      "about1": "Soy Desarrollador Frontend Junior con 2 años de experiencia. Mi formación académica en diseño gráfico me facilita crear interfaces atractivas y funcionales utilizando React, Next.js, CSS, Tailwind. Complemento estas habilidades con conocimientos básicos de backend en PHP,  Laravel, APIs.",
+      "about2": "Complemento mi perfil técnico con un sólido dominio de Figma para la creación de interfaces y prototipos, asegurando que cada proyecto mantenga coherencia visual y usabilidad. Los 4 años de experiencia que tengo con WordPress, me permiten implementar rápidamente landing pages ideales para impulsar el marketing y desarrollar MVP's.",
       "about3": "Éstas son las principales tecnologías y habilidades que domino:",
 
 
@@ -125,7 +126,7 @@ const resources = {
       "name": "Jesús Ruiz",
       "description1": "Junior Full Stack Developer",
       "description2": "and Senior Graphic Designer",
-      "bio": "With over 6 years as a Graphic Designer, I specialize in <span class='text-textPrimary'>Visual Identity Design</span> for brands. In the past 2 years, I have worked on developing <span class='text-textPrimary'>Web Applications with PHP and Laravel.</span> I also have a solid 3 years of experience developing <span class='text-textPrimary'>Websites with WordPress</span>",
+      "bio": "I'm also a graphic designer, which makes it easy for me to create attractive and functional interfaces using <span class='text-textPrimary'>React, Next.js, CSS, Tailwind.</span> I complement these skills with basic backend knowledge in <span class='text-textPrimary'>PHP, Laravel, MVC and APIs.</span> Additionally, I have <span class='text-textPrimary'>4 years of experience working with WordPress.</span>",
       
       "view_resume": "View CV",
       "download_cv": "Download CV",
@@ -191,8 +192,8 @@ const resources = {
 
 
       "about": "About Me",
-      "about1": "I have 2 years of experience as a Junior Full Stack Developer, building web applications with PHP and Laravel, and with mastery of the TALL stack (Tailwind, AlpineJS, Laravel, Livewire). I specialize in developing complete and scalable solutions that combine a robust backend with dynamic and reactive user interfaces. I also have 3 years of experience carrying out projects with WordPress, which allows me to offer solutions for both simple websites and complex, custom applications.",
-      "about2": "As a Senior Graphic Designer, with more than 6 years of experience, I use Figma for the creation and prototyping of interfaces, ensuring that each design is visually coherent and easy to use. My approach to Visual Identity and Branding design ensures that the graphic solutions I develop perfectly align with the client's needs, offering an integrated visual experience from concept to implementation.",
+      "about1": "I am a Junior Frontend Developer with 2 years of experience. My academic background in graphic design allows me to create attractive and functional interfaces using React, Next.js, CSS, Tailwind. I complement these skills with basic backend knowledge in PHP, Laravel, APIs.",
+      "about2": "I complement my technical profile with a solid command of Figma for the creation of interfaces and prototypes, ensuring that each project maintains visual coherence and usability. The 4 years of experience I have with WordPress allow me to quickly implement ideal landing pages to boost marketing and develop MVPs.",
       "about3": "These are the main technologies and skills that i master:",
 
 

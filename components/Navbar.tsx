@@ -13,7 +13,7 @@ import { useTranslation } from 'react-i18next';
 const Navbar = () => {
   const { t, i18n } = useTranslation();
 
-  const viewCvUrl = i18n.language === 'en' ? "https://jesus-cv.vercel.app/index-en" : "https://jesus-cv.vercel.app";
+  const viewCvUrl = i18n.language === 'en' ? "https://curriculum.jesuizdesign.com/index-en" : "https://curriculum.jesuizdesign.com/";
   const downloadCvUrl = i18n.language === 'en' ? "/assets/cv_en_full.pdf" : "/assets/cv_es_full.pdf";
 
   const ref = useRef<string | any>("");

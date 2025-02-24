@@ -25,8 +25,9 @@ module.exports = {
         xl: "1280px",
       },
       colors: {
-        textPrimary: "#04d7ab",
-        hoverColor: "rgb(64, 215, 171, 0.1)",
+        textPrimary: "#f59e0b",
+        hoverColor: "rgb(245, 158, 11, 0.1)",
+        hueRotate: "hue-rotate-[4.300rad]",
 
         bodyColor: "#1b1b1a",
         textAmber: "#f59e0b",

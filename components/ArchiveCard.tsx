@@ -12,11 +12,11 @@ interface Props {
 
 const ArchiveCard = ({ title, des, hours, company, date, link }: Props) => {
   const logoImage = company === 'Platzi'
-    ? "bg-[url('/assets/img/logo-platzi.webp')]"
+    ? "bg-[url('/assets/img/logo-platzi.webp')] hue-rotate-[4.300rad]"
     : company === 'Udemy'
-    ? "bg-[url('/assets/img/logo-udemy.webp')]"
+    ? "bg-[url('/assets/img/logo-udemy.webp')] hue-rotate-[2.300rad]"
     : company === 'EF SET'
-    ? "bg-[url('/assets/img/logo-efset.webp')]"
+    ? "bg-[url('/assets/img/logo-efset.webp')] hue-rotate-[4.300rad]"
     : "";
   const backgroundImage = company === 'Platzi'
     ? "bg-[url('/assets/img/background-platzi.webp')]"
