@@ -4,6 +4,22 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: 'Geist Sans';
+  src: url('/fonts/Geist-Sans.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Geist Mono';
+  src: url('/fonts/Geist-Mono.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
 @layer components {
   .contactInput {
     @apply w-full text-base text-white placeholder:text-textLight border border-b-[1px] border-transparent border-b-textGreen py-3 px-2 outline-none focus-within:border-[1px] focus-within:border-textGreen duration-100 bg-zinc-800;
@@ -137,4 +153,16 @@
   border: 1px solid var(--clr-primary-100);
   color: var(--clr-primary-100);
   /* Resto de los estilos */
+}
+
+.bg-platzi {
+  background-image: url('/assets/img/background-platzi.webp');
+}
+
+.bg-udemy {
+  background-image: url('/assets/img/background-platzi.webp');
+}
+
+.bg-efset {
+  background-image: url('/assets/img/background-platzi.webp');
 }

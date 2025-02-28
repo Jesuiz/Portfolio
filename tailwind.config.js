@@ -25,11 +25,10 @@ module.exports = {
         xl: "1280px",
       },
       colors: {
-        textPrimary: "#f59e0b",
-        hoverColor: "rgb(245, 158, 11, 0.1)",
-        hueRotate: "hue-rotate-[4.300rad]",
+        textPrimary: "#0ea5e9",
+        hoverColor: "rgb(14, 165, 233, 0.1)",
 
-        bodyColor: "#1b1b1a",
+        bodyColor: "#000000",
         textAmber: "#f59e0b",
         textGreen: "#04d6aa",
         textTeal: "#14b8a6",
@@ -48,8 +47,8 @@ module.exports = {
         hoverColor2: "#04d7ab",
       },
       fontFamily: {
-        bodyFont: ["Poppins", "sans-serif"],
-        titleFont: ["Poppins", "sans-serif"],
+        bodyFont: ['var(--font-geist)', 'Inter', 'sans-serif'],
+        titleFont: ['var(--font-geist)', 'Inter', 'sans-serif'],
       },
       boxShadow: {
         navbarShadow: " 0 10px 30px -10px rgba(2,12,27,0.7)",

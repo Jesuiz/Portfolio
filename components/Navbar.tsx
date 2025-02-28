@@ -14,7 +14,7 @@ const Navbar = () => {
   const { t, i18n } = useTranslation();
 
   const viewCvUrl = i18n.language === 'en' ? "https://curriculum.jesuizdesign.com/index-en" : "https://curriculum.jesuizdesign.com/";
-  const downloadCvUrl = i18n.language === 'en' ? "/assets/cv_en_full.pdf" : "/assets/cv_es_full.pdf";
+  const downloadCvUrl = i18n.language === 'en' ? "/assets/cv_jesus_ruiz_en.pdf" : "/assets/cv_jesus_ruiz_es.pdf";
 
   const ref = useRef<string | any>("");
   const [show, setShow] = useState(false);
@@ -46,7 +46,7 @@ const Navbar = () => {
   }
 
   return (
-    <div className="w-full shadow-navbarShadow h-14 md:h-20 lgl:h-20 sticky top-0 z-50 bg-bodyColor px-4">
+    <div className="w-full shadow-navbarShadow h-14 md:h-20 lgl:h-20 sticky -top-1 z-50 bg-bodyColor px-4">
       <div className="max-w-container h-full mx-auto py-1 font-titleFont flex items-center justify-between">
 
         {/* ============ ListItem Start here ======== */}
@@ -121,7 +121,12 @@ const Navbar = () => {
               transition={{ delay: 0.5 }}
             >
               <button onClick={() => changeLanguage('es')} style={{ width: 32, height: 32 }}>
-                <Image src="/assets/img/spain-flag.webp" alt="Spanish Flag" width={24} height={24} />
+                <Image
+                  src="/assets/img/spain-flag.webp"
+                  alt="Spanish Flag"
+                  width={24}
+                  height={24}
+                />
               </button>
             </motion.div>
             <motion.div
@@ -130,7 +135,12 @@ const Navbar = () => {
                 transition={{ delay: 0.6 }}
               >
                 <button onClick={() => changeLanguage('en')} style={{ width: 32, height: 32 }}>
-                  <Image src="/assets/img/uk-flag.webp" alt="English Flag" width={24} height={24} />
+                  <Image
+                    src="/assets/img/uk-flag.webp"
+                    alt="English Flag"
+                    width={24}
+                    height={24}
+                  />
                 </button>
               </motion.div>
           </div>
@@ -174,7 +184,12 @@ const Navbar = () => {
                     transition={{ duration: 0.1, delay: 0.1, ease: "easeIn" }}
                   >
                     <button onClick={() => changeLanguage('es')} style={{ width: 32, height: 32 }}>
-                      <Image src="/assets/img/spain-flag.webp" alt="Spanish Flag" width={24} height={24} />
+                      <Image
+                        src="/assets/img/spain-flag.webp"
+                        alt="Spanish Flag"
+                        width={24}
+                        height={24}
+                        />
                     </button>
                   </motion.div>
                   <motion.div
@@ -183,7 +198,12 @@ const Navbar = () => {
                     transition={{ duration: 0.2, delay: 0.2, ease: "easeIn" }}
                   >
                     <button onClick={() => changeLanguage('en')} style={{ width: 32, height: 32 }}>
-                      <Image src="/assets/img/uk-flag.webp" alt="English Flag" width={24} height={24} />
+                      <Image
+                        src="/assets/img/uk-flag.webp"
+                        alt="English Flag"
+                        width={24}
+                        height={24}
+                      />
                     </button>
                   </motion.div>
                 </div>

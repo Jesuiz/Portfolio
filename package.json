@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@geist-ui/core": "^2.3.8",
     "@types/node": "18.15.7",
     "@types/react": "18.0.28",
     "@types/react-dom": "18.0.11",
@@ -16,7 +17,7 @@
     "eslint-config-next": "13.2.4",
     "framer-motion": "^10.9.1",
     "i18next": "^23.11.5",
-    "next": "13.2.4",
+    "next": "^15.2.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-i18next": "^14.1.2",

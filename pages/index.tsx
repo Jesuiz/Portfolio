@@ -13,7 +13,7 @@ import Scroll from '@/components/Scroll';
 import '../src/i18n';
 
 export default function Home() {
-  
+
   const background = "bg-[url('/assets/img/background_lines.png')]";
 
   return (
@@ -38,7 +38,7 @@ export default function Home() {
           </motion.div>
 
           <div className=" h-[88vh] w-[95%] mx-auto p-5 xl:pl-10">
-            
+
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -56,7 +56,6 @@ export default function Home() {
             </motion.div>
 
             <div className="relative overflow-x-visible">
-              <div className={`absolute w-[120%] h-80 bottom-28 sm:bottom-32 md:bottom-0 opacity-20 bg-center bg-no-repeat left-1/2 -translate-x-1/2 hue-rotate-[4.300rad] ${background}`}/>
               <About />
             </div>
 
